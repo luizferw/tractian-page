@@ -1,0 +1,79 @@
+@layer base {
+  :root {
+    --font-sans: var(--font-inter);
+
+    --color-blue-600: rgb(37 99 235);
+    --color-slate-700: rgb(51 65 85);
+
+    /* display */
+    --fs-display-lg: 48px;
+    --lh-display-lg: 60px;
+    --fs-display-lg-desktop: 80px;
+    --lh-display-lg-desktop: 80px;
+
+    --fs-display-sm: 48px;
+    --lh-display-sm: 60px;
+    --fs-display-sm-desktop: 64px;
+    --lh-display-sm-desktop: 64px;
+
+    /* title */
+    --fs-title-xl: 32px;
+    --lh-title-xl: 40px;
+    --fs-title-xl-desktop: 48px;
+    --lh-title-xl-desktop: 60px;
+
+    --fs-title-lg: 24px;
+    --lh-title-lg: 32px;
+    --fs-title-lg-desktop: 40px;
+    --lh-title-lg-desktop: 52px;
+
+    --fs-title-md: 20px;
+    --lh-title-md: 32px;
+    --fs-title-md-desktop: 32px;
+    --lh-title-md-desktop: 40px;
+
+    --fs-title-sm: 20px;
+    --lh-title-sm: 28px;
+    --fs-title-sm-desktop: 24px;
+    --lh-title-sm-desktop: 32px;
+
+    --fs-title-xs: 20px;
+    --lh-title-xs: 24px;
+    --lh-title-xs-desktop: 28px;
+
+    /* body */
+    --fs-body-xl: 16px;
+    --lh-body-xl: 24px;
+    --fs-body-xl-desktop: 20px;
+    --lh-body-xl-desktop: 32px;
+
+    --fs-body-lg: 16px;
+    --lh-body-lg: 24px;
+    --fs-body-lg-desktop: 18px;
+    --lh-body-lg-desktop: 28px;
+
+    --fs-body-md: 14px;
+    --lh-body-md: 22px;
+    --fs-body-md-desktop: 16px;
+    --lh-body-md-desktop: 24px;
+
+    --fs-body-sm: 14px;
+    --lh-body-sm: 22px;
+
+    /* misc */
+    --fs-label-lg: 18px;
+    --lh-label-lg: 28px;
+
+    --fs-label-md: 16px;
+    --lh-label-md: 24px;
+
+    --fs-tag: 12px;
+    --lh-tag: 20px;
+
+    --fs-quote: 14px;
+    --lh-quote: 22px;
+
+    --fs-placeholder: 16px;
+    --lh-placeholder: 24px;
+  }
+}

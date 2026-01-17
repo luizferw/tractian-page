@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@import "./typography.css";
+@import './tokens.css';
+
+@layer base {
+  html {
+    font-family: var(--font-inter);
+    color: var(--color-slate-700);
+  }
+}
