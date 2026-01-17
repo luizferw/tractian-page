@@ -1,6 +1,6 @@
 import { getTranslations } from "next-intl/server";
 import type { Metadata } from "next";
-import { useTranslations } from "next-intl";
+import { Locale } from "@/i18n.config";
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -17,8 +17,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   };
 }
 
-export default function ReliabilityEngineerPage() {
-  const t = useTranslations("ReliabilityEngineer");
+export default async function ReliabilityEngineerPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params
+  const t = await getTranslations({ locale, namespace: "ReliabilityEngineer" });
 
   return (
     <div>
