@@ -3,6 +3,7 @@ import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
 import { hasLocale } from "next-intl";
 import { notFound } from "next/navigation";
+import '../../styles/globals.css';
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const interTight = Inter_Tight({

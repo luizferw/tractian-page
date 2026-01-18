@@ -2,5 +2,18 @@
   "ReliabilityEngineer": {
     "title": "Tractian para Ingenieros de Confiabilidad",
     "description": "Detecta fallas antes de que escalen, analiza causas raíz y mejora la salud de activos con datos reales."
+  },
+  "SiteNav": {
+    "solutions": "Soluciones",
+    "whoWeServe": "Industrias",
+    "resources": "Recursos",
+    "company": "Compañía",
+    "pricing": "Precios",
+    "getDemo": "Solicita una demo"
+  },
+  "Languages": {
+    "en": "English (United States)",
+    "pt": "Português (Brasil)",
+    "es": "Español (México)"
   }
 }

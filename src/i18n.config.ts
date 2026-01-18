@@ -4,6 +4,7 @@ export const localeNames: Record<string, Locale> = {
   pt: "pt",
   es: "es",
 };
+
 export type Locale = (typeof locales)[number];
 
 export const defaultLocale: Locale = localeNames.pt;

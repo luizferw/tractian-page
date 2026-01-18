@@ -2,5 +2,18 @@
   "ReliabilityEngineer": {
     "title": "Tractian para Gerentes de Manutenção",
     "description": "Planeje, priorize e acompanhe ordens em tempo real. Com a Tractian, Gerentes de Manutenção têm visibilidade total para tomar decisões rápidas."
+  },
+  "SiteNav": {
+    "solutions": "Soluções",
+    "whoWeServe": "Indústrias",
+    "resources": "Recursos",
+    "company": "Sobre",
+    "pricing": "Planos",
+    "getDemo": "Demonstração"
+  },
+  "Languages": {
+    "en": "English (United States)",
+    "pt": "Português (Brasil)",
+    "es": "Español (México)"
   }
 }
