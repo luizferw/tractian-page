@@ -5,7 +5,7 @@ import SwitchLanguageIcon from "@/components/icons/SwitchLanguageIcon";
 import { Button } from "@/components/ui/Button/Button";
 import { useLocale, useTranslations } from "next-intl";
 import { useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export type SwitchLanguageButtonProps = {
   availableLocales: { locale: string; href: string }[];
@@ -19,8 +19,30 @@ export default function SwitchLanguageButton({
   const [isOpen, setIsOpen] = useState(false);
   const router = useRouter();
 
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // ✅ fecha ao clicar fora
+  useEffect(() => {
+    if (!isOpen) return;
+
+    const handleClickOutside = (event: MouseEvent) => {
+      if (
+        containerRef.current &&
+        !containerRef.current.contains(event.target as Node)
+      ) {
+        setIsOpen(false);
+      }
+    };
+
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, [isOpen]);
+
   return (
-    <div className="relative inline-flex w-full flex-col py-4 lg:w-auto lg:max-w-none lg:flex-row lg:px-0 lg:py-2">
+    <div
+      ref={containerRef}
+      className="relative inline-flex w-full flex-col py-4 lg:w-auto lg:max-w-none lg:flex-row lg:px-0 lg:py-2"
+    >
       {isOpen && (
         <div className="animate-[fadeInDown_333.33ms_both] z-[100] hidden w-full lg:block lg:w-auto">
           <div className="absolute left-0 top-10 z-[1000] flex w-full flex-col items-center rounded-[2px] border border-slate-300 bg-slate-50 p-2 text-slate-500 transition-opacity duration-default ease-in-out text-body-sm lg:left-3 lg:top-8 lg:w-auto lg:border-2 xl:text-body-md">
