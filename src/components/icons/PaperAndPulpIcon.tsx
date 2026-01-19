@@ -1,0 +1,26 @@
+export default function PaperAndPulpIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      fill="none"
+      height={20}
+      viewBox="0 0 20 20"
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+      className="text-slate-400"
+      {...props}
+    >
+      <path
+        d="M17.1585 5.225V18.75H2.8418V1.25H13.1835L17.1585 5.225Z"
+        stroke="currentColor"
+        strokeMiterlimit={10}
+        strokeWidth="0.75"
+      />
+      <path
+        d="M17.1588 5.225V6.025H12.3838V1.25H13.1838L17.1588 5.225Z"
+        stroke="currentColor"
+        strokeMiterlimit={10}
+        strokeWidth="0.75"
+      />
+    </svg>
+  );
+}
