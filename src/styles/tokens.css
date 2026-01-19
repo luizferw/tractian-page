@@ -1,13 +1,23 @@
 @layer base {
   :root {
     --font-sans: var(--font-inter);
+    --font-tight: var(--font-inter-tight);
 
     --color-blue-600: rgb(37 99 235);
+
     --color-slate-50: rgb(248 250 252);
     --color-slate-100: rgb(241 245 249);
     --color-slate-300: rgb(203 213 225);
+    --color-slate-400: rgb(148 163 184);
     --color-slate-500: rgb(100 116 139);
     --color-slate-700: rgb(51 65 85);
+    --color-slate-900: rgb(15, 23, 42);
+
+    --color-green-600: rgb(22 163 74);
+    --color-green-900: rgb(20 83 45);
+    --color-green-950: rgb(5 46 22);
+
+    --red-500: rgb(239, 68, 68);
 
     /* display */
     --fs-display-lg: 48px;

@@ -1,11 +1,183 @@
 @import "tailwindcss";
 @import "./typography.css";
 @import "./tokens.css";
+@import "react-international-phone/style.css";
 
 @layer base {
   html {
     font-family: var(--font-inter);
     color: var(--color-slate-700);
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  /* =========================================================
+   DEFAULT FIELDSET — PHONE NUMBER
+   ========================================================= */
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-input-container {
+    display: flex !important;
+    height: auto !important;
+    width: 100% !important;
+    flex: 1 1 0% !important;
+    border-width: 0 !important;
+    font-family: var(--font-inter) !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"] .react-international-phone-input {
+    z-index: 20 !important;
+    height: auto !important;
+    width: 100% !important;
+    padding: 0.75rem !important;
+    font-size: 14px !important;
+    font-weight: regular !important;
+    line-height: 22px !important;
+    border-width: 0 !important;
+    border-top-right-radius: 0.125rem !important;
+    border-bottom-right-radius: 0.125rem !important;
+    outline-style: solid !important;
+    outline-width: 1px !important;
+    outline-color: #94a3b8;
+    outline-offset: 0 !important;
+  }
+
+  @media (min-width: 1024px) {
+    .default-fieldset[data-cid="phone-number"]
+      .react-international-phone-input {
+      font-size: 16px !important;
+      line-height: 24px !important;
+    }
+  }
+
+  /* Variants */
+
+  .default-fieldset[data-cid="phone-number"] .react-international-phone-input {
+    background-color: rgb(255 255 255 / 1) !important;
+    color: rgb(100 116 139 / 1) !important;
+    outline-color: #94a3b8;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-input:hover {
+    outline-color: #334155;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-input:focus {
+    outline-width: 2px !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"][data-valid="true"]
+    .react-international-phone-input:focus {
+    outline-color: #2563eb !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-input.secondary {
+    background-color: rgb(255 255 255 / 1) !important;
+    color: rgb(100 116 139 / 1) !important;
+    outline-color: #94a3b8 !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-input.error {
+    outline-color: #ef4444 !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-input.filled {
+    color: rgb(51 65 85 / 1) !important;
+  }
+
+  /* Country selector */
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector {
+    height: auto !important;
+    border-width: 0 !important;
+    border-top-left-radius: 0.125rem !important;
+    border-bottom-left-radius: 0.125rem !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-button {
+    height: 100% !important;
+    margin-right: 0 !important;
+    padding: 0 0.75rem !important;
+    border-width: 0 !important;
+    outline-style: solid !important;
+    outline-width: 1px !important;
+    outline-color: #94a3b8 !important;
+    border-top-left-radius: 0.125rem !important;
+    border-bottom-left-radius: 0.125rem !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-button:hover {
+    background-color: rgb(255 255 255 / 1) !important;
+    outline-color: #334155 !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-button__button-content {
+    display: flex !important;
+    align-items: center !important;
+    column-gap: 0.25rem !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-button__dropdown-arrow {
+    width: 1rem !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-flag-emoji {
+    width: 1.5rem !important;
+    border-radius: 0 !important;
+  }
+
+  /* Dropdown */
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-dropdown {
+    top: 52px !important;
+    border-width: 1px !important;
+    border-radius: 0.125rem !important;
+    border-color: rgb(226 232 240 / 1) !important;
+    box-shadow:
+      0 20px 25px -5px rgba(0, 0, 0, 0.1),
+      0 8px 10px -6px rgba(0, 0, 0, 0.1) !important;
+    outline: 2px solid transparent !important;
+    outline-offset: 2px !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-dropdown__list-item {
+    display: flex !important;
+    gap: 0.5rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-dropdown__list-item-country-name {
+    margin: 0 !important;
+    font-size: 14px !important;
+    font-weight: regular !important;
+    line-height: 22px !important;
+    color: rgb(100 116 139 / 1) !important;
+  }
+
+  @media (min-width: 1024px) {
+    .default-fieldset[data-cid="phone-number"]
+      .react-international-phone-country-selector-dropdown__list-item-country-name {
+      font-size: 16px !important;
+      line-height: 24px !important;
+    }
+  }
+
+  .default-fieldset[data-cid="phone-number"]
+    .react-international-phone-country-selector-dropdown__list-item-dial-code {
+    color: rgb(100 116 139 / 1) !important;
   }
 }
 
@@ -35,5 +207,11 @@
     100% {
       opacity: 1;
     }
+  }
+}
+
+@layer utilities {
+  .outline-auto {
+    outline-style: auto;
   }
 }
