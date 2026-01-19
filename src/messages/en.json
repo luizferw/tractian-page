@@ -98,6 +98,67 @@
 
     "getDemo": "Get Demo"
   },
+  "SiteFooter": {
+    "backToTop": "Back to top",
+    "sections": {
+      "sensors": "Sensors",
+      "cmms": "CMMS",
+      "oee": "OEE",
+      "support": "Support",
+      "about": "About",
+      "downloadApp": "Download Our App"
+    },
+    "links": {
+      "conditionMonitoring": "Condition Monitoring",
+      "keyFeatures": "Key Features",
+      "insightsDiagnostics": "Insights and Diagnostics",
+      "vibrationSensor": "Vibration Sensor",
+      "compatibleAssets": "Compatible Assets",
+      "patentedTechnology": "Patented Technology",
+      "predictiveMaintenanceSoftware": "Predictive Maintenance Software",
+
+      "aiPoweredCmms": "AI-Powered CMMS",
+      "bestInventoryManagementSoftware": "Best Inventory Management Software",
+      "preventiveMaintenanceSoftware": "Preventive Maintenance Software",
+      "planningAndScheduling": "Planning and Scheduling",
+      "workOrderManagement": "Work Order Management",
+      "sparePartsManagement": "Spare Parts Management",
+      "checklistsSops": "Checklists/SOPs",
+      "reportingAndAnalytics": "Reporting and Analytics",
+      "mobileCmmsApp": "Mobile CMMS App",
+      "integrations": "Integrations",
+
+      "productionMonitoring": "Production Monitoring",
+      "assetPerformanceManagement": "Asset Performance Management",
+      "energyReports": "Energy Reports",
+      "processMonitoring": "Process Monitoring",
+      "currentMonitoring": "Current Monitoring",
+      "utilityProcessAnalytics": "Utility & Process Analytics",
+      "customDashboards": "Custom Dashboards",
+
+      "contactUs": "Contact Us",
+      "helpCenter": "Help Center",
+      "policies": "Policies",
+      "trustCenter": "Trust Center",
+      "masterLicense": "Master License and Service Agreement",
+      "hostedSoftwareSla": "Hosted Software SLA",
+      "hardwareWarrantyPolicy": "Hardware Warranty Policy",
+
+      "aboutUs": "About Us",
+      "referrals": "Referrals",
+      "careers": "Careers",
+      "caseStudies": "Case Studies",
+      "press": "Press",
+
+      "appleStore": "Apple Store",
+      "googlePlayStore": "Google Play Store",
+      "sapStore": "SAP Store"
+    },
+    "privacyChoices": "Your Privacy Choices",
+    "address": "201 17th Street NW, Atlanta, GA 30363",
+    "phone": "+1 (833) GET-TRAC",
+    "copyright": "© TRACTIAN TECHNOLOGIES INC"
+  },
   "Languages": {
     "en": "English (United States)",
     "pt": "Português (Brasil)",

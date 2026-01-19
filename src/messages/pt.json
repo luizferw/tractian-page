@@ -91,6 +91,61 @@
 
     "getDemo": "Demonstração"
   },
+  "SiteFooter": {
+    "backToTop": "Voltar ao topo",
+    "sections": {
+      "sensors": "Monitoramento Online",
+      "cmms": "Gestão de Ativos",
+      "oee": "Gestão de Energia",
+      "support": "Suporte",
+      "about": "Sobre",
+      "downloadApp": "Download Our App"
+    },
+    "links": {
+      "overview": "Visão Geral",
+      "insightsAndDiagnostics": "Insights e Diagnósticos",
+      "monitoredAssets": "Ativos Monitorados",
+      "vibrationAnalysis": "Análise de Vibração",
+      "supervisory": "Supervisório",
+
+      "overviewOEE": "Visão Geral",
+      "assetPerformanceManagement": "Asset Performance Management",
+      "energyReports": "Relatórios de Energia",
+      "processMonitoring": "Monitoramento de processos",
+      "energyEfficiency": "Eficiência Energética",
+      "currentMonitoring": "Monitoramento de Corrente",
+      "supervisoryOEE": "Supervisório",
+
+      "overviewCMMS": "CMMS Potencializado por IA",
+      "planningAndScheduling": "Planejamento e Programação",
+      "maintenanceKPIs": "Dashboard Indicadores Manutenção",
+      "geolocation": "Geolocalização",
+      "workOrderManagement": "Gestão de Ordens de Serviço",
+      "inventoryControl": "Controle de Estoque",
+      "automaticProcedures": "Procedimentos Automáticos",
+      "mobileApp": "Aplicativo Móvel",
+
+      "contactUs": "Fale Conosco",
+      "helpCenter": "Central de Ajuda",
+      "policies": "Políticas",
+      "termsOfUse": "Termos de Uso",
+      "trustCenter": "Trust Center",
+
+      "aboutUs": "Sobre Nós",
+      "careers": "Carreiras",
+      "caseStudies": "Estudos de Caso",
+      "press": "Imprensa",
+      "community": "Comunidade",
+
+      "appleStore": "Apple Store",
+      "googlePlayStore": "Google Play Store",
+      "sapStore": "SAP Store"
+    },
+    "privacyChoices": "Suas escolhas de privacidade",
+    "address": "R. Amaro Guerra, 415 - Chácara Santo Antônio, São Paulo - SP, 04711-020",
+    "phone": "0800 110 2020",
+    "copyright": "© Tractian Tecnologia Ltda\nCNPJ: 35.755.699/0001-84"
+  },
   "Languages": {
     "en": "English (United States)",
     "pt": "Português (Brasil)",

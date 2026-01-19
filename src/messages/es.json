@@ -90,6 +90,60 @@
     "pricing": "Precios",
     "getDemo": "Solicita una demo"
   },
+  "SiteFooter": {
+    "backToTop": "Volver al inicio",
+    "sections": {
+      "sensors": "Monitoreo Online",
+      "cmms": "Gestión de Activos",
+      "oee": "Gestión de Energia",
+      "support": "Soporte",
+      "about": "Sobre",
+      "downloadApp": "Download Our App"
+    },
+    "links": {
+      "overview": "Visión general",
+      "insightsAndDiagnostics": "Insights y Diagnósticos",
+      "vibrationAnalysis": "Analisis de Vibraciones",
+      "monitoredAssets": "Activos Monitoreados",
+      "supervisory": "Supervisor",
+
+      "overviewOEE": "Visión general",
+      "assetPerformanceManagement": "Asset Performance Management",
+      "energyReports": "Informes de Energia",
+      "processMonitoring": "Monitoreo de procesos",
+      "currentMonitoring": "Monitoreo de Corriente",
+      "energyEfficiency": "Eficiencia Energética",
+      "supervisoryOEE": "Supervisor",
+
+      "overviewCMMS": "CMMS Potenciado por IA",
+      "planningAndScheduling": "Planificación y Programación",
+      "workOrderManagement": "Gestión de Órdenes de Trabajo",
+      "materialsManagement": "Gestión de Materiales",
+      "automaticProcedures": "Procedimentos Automaticos",
+      "mobileApp": "Aplicación móvil",
+      "geolocation": "Geolocalización",
+      "kpisDashboards": "Indicadores Dashboards Mantenimiento",
+
+      "contactUs": "Hable con Nosotros",
+      "helpCenter": "Centro de Ayuda",
+      "policies": "Politicas",
+      "trustCenter": "Centro de Confianza",
+
+      "aboutUs": "Sobre Nosotros",
+      "careers": "Carreras",
+      "caseStudies": "Casos de Estudio",
+      "press": "Prensa",
+      "community": "Comunidad",
+
+      "appleStore": "Apple Store",
+      "googlePlayStore": "Google Play Store",
+      "sapStore": "SAP Store"
+    },
+    "privacyChoices": "Tus elecciones de privacidad",
+    "address": "Córdoba 23, Cuauhtémoc, 06700, Ciudad de México, CDMX",
+    "phone": "+52 (800) 953-8998",
+    "copyright": "Tractian Tecnología Industrial S. de R.L.\nde C.V."
+  },
   "Languages": {
     "en": "English (United States)",
     "pt": "Português (Brasil)",
