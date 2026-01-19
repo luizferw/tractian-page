@@ -456,7 +456,7 @@ export default function Form() {
 
         <Button
           size="lg"
-          className="outline-none max-w-fit w-full transition ease-in-out duration-150 text-center font-medium text-body-lg leading-[22px] lg:leading-6 px-6 py-3 bg-green-600 text-white disabled:text-white hover:bg-green-900 active:bg-green-950 disabled:outline-none disabled:bg-slate-300 min-w-full"
+          className="outline-none max-w-fit w-full transition ease-in-out duration-150 text-center font-medium text-body-lg leading-[22px] lg:!leading-6 px-6 py-3 bg-green-600 text-white disabled:text-white hover:bg-green-900 active:bg-green-950 disabled:outline-none disabled:bg-slate-300 min-w-full"
           type="submit"
           disabled={isSubmitting || !isInitialDelayComplete}
         >
