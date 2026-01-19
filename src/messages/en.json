@@ -5,15 +5,137 @@
   },
   "SiteNav": {
     "solutions": "Solutions",
+
+    "tractianConditionMonitoring": "Tractian Condition Monitoring",
+    "vibrationSensorAndAnalysis": "Vibration Sensor & Analysis",
+    "vibrationSensorAndAnalysisDescription": "All the tools you need to remotely monitor machine health.",
+    "aiFailureDetection": "AI Failure Detection",
+    "aiFailureDetectionDescription": "Spot issues early, trigger automatic alerts.",
+    "reliabilityAndRootCauseAnalysis": "Reliability & Root Cause Analysis",
+    "reliabilityAndRootCauseAnalysisDescription": "Get to the why faster, build your reliability program.",
+    "downtimePreventionAndReporting": "Downtime Prevention & Reporting",
+    "downtimePreventionAndReportingDescription": "Uncover failure trends, act before breakdowns happen.",
+    "sensorSpecifications": "Sensor Specifications",
+    "sensorSpecificationsDescription": "Monitor real-time vibration, temperature, runtime, and RPM.",
+
+    "tractianCmms": "Tractian CMMS",
+    "troubleshootingAndSops": "Troubleshooting & SOPs",
+    "troubleshootingAndSopsDescription": "Guide technicians with smart SOPs and checklists.",
+    "workOrderManagement": "Work Order Management",
+    "workOrderManagementDescription": "Plan, assign, and track every work order in one place.",
+    "partsInventoryManagement": "Parts Inventory Management",
+    "partsInventoryManagementDescription": "Track critical parts and link them to maintenance tasks.",
+    "preventiveMaintenance": "Preventive Maintenance",
+    "preventiveMaintenanceDescription": "Automate tasks, prevent failures, and cut downtime.",
+    "integrations": "Integrations",
+    "integrationsDescription": "Connect Tractian with ERPs, sensors, and data systems.",
+
+    "tractianOee": "Tractian OEE",
+    "aiProductionTracking": "AI Production Tracking",
+    "aiProductionTrackingDescription": "Get status of production, lines, stations with live insights.",
+    "operatorPerformance": "Operator Performance",
+    "operatorPerformanceDescription": "Connect and empower the frontline.",
+    "digitizedQuality": "Digitized Quality",
+    "digitizedQualityDescription": "Take quality forms and measurements digital.",
+    "customDashboards": "Custom Dashboards",
+    "customDashboardsDescription": "Drive operations with real-time data reports.",
+    "utilityAndProcessAnalytics": "Utility & Process Analytics",
+    "utilityAndProcessAnalyticsDescription": "Analyze energy consumption and process metrics.",
+
     "whoWeServe": "Who We Serve",
+
+    "byRole": "By Role",
+    "plantManager": "Plant Manager",
+    "reliabilityEngineer": "Reliability Engineer",
+    "maintenanceEngineer": "Maintenance Engineer",
+    "manufacturingEngineer": "Manufacturing Engineer",
+
+    "bySector": "By Sector",
+    "automotiveAndParts": "Automotive & Parts",
+    "chemicals": "Chemicals",
+    "facilities": "Facilities",
+    "fleet": "Fleet",
+    "foodAndBeverage": "Food & Beverage",
+    "heavyEquipment": "Heavy Equipment",
+    "manufacturing": "Manufacturing",
+    "millsAndAgriculture": "Mills & Agriculture",
+    "miningAndMetals": "Mining & Metals",
+    "oilAndGas": "Oil & Gas",
+
     "resources": "Resources",
+
+    "resourcesCenter": "Resources Center",
+    "caseStudies": "Case Studies",
+    "ebooks": "Ebooks",
+    "blog": "Blog",
+    "templates": "Templates",
+    "calculators": "Calculators",
+    "eventsAndWebinars": "Events & Webinars",
+    "sops": "SOPs",
+    "chatgptPlugins": "ChatGPT Plugins",
+
+    "customerHub": "Customer Hub",
+    "productUpdates": "Product Updates",
+    "tractianAcademy": "Tractian Academy",
+    "helpCenter": "Help Center",
+
     "company": "Company",
+
+    "aboutTractian": "About Tractian",
+    "aboutUs": "About Us",
+    "careers": "Careers",
+    "newsroom": "Newsroom",
+
+    "others": "Others",
+    "contactUs": "Contact Us",
+    "referrals": "Referrals",
+    "trustCenter": "Trust Center",
+
     "pricing": "Pricing",
+
+    "conditionMonitoringPricing": "Condition Monitoring",
+    "cmmsPricing": "CMMS Software",
+
     "getDemo": "Get Demo"
   },
   "Languages": {
     "en": "English (United States)",
     "pt": "Português (Brasil)",
     "es": "Español (México)"
+  },
+  "GetDemoDialog": {
+    "title": "Request Your Demo",
+    "description": "Fill in the fields to talk to a specialist and understand the benefits that our solutions offer for your maintenance operations.",
+    "closeButton": "Close dialog",
+    "form": {
+      "name": {
+        "placeholder": "Name",
+        "required": "This field is required!",
+        "invalid": "Invalid name. Check for special characters!",
+        "incomplete": "Invalid name. Please check if it is complete!"
+      },
+      "email": {
+        "placeholder": "Work Email",
+        "required": "This field is required!",
+        "invalid": "Invalid email. Check for special characters!"
+      },
+      "phone": {
+        "placeholder": "Phone",
+        "required": "Invalid phone number, please check if it is complete!"
+      },
+      "jobTitle": {
+        "placeholder": "Job Title",
+        "required": "This field is required!"
+      },
+      "industrySector": {
+        "placeholder": "Industry Sector",
+        "required": "This field is required!"
+      },
+      "solution": {
+        "placeholder": "Select the solution of most interest",
+        "required": "This field is required!"
+      },
+      "submitButton": "Request demo"
+    }
   }
 }
