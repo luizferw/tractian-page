@@ -3,12 +3,12 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cnRaw } from "@/lib/cn";
 
 const buttonVariants = cva(
-  "cursor-pointer inline-flex items-center justify-center rounded-[2px] transition ease-in-out duration-150 disabled:cursor-not-allowed text-body-md px-4 py-2 w-full",
+  "cursor-pointer inline-flex items-center justify-center rounded-[2px] transition ease-in-out duration-150 disabled:cursor-not-allowed px-4 py-2 w-full",
   {
     variants: {
       variant: {
         primary:
-          "w-full transition ease-in-out duration-150 disabled:cursor-not-allowed text-center bg-blue-600 text-white font-medium text-body-md px-4 py-2 bg-blue-600 hover:bg-blue-900 active:bg-blue-950 disabled:bg-slate-300 w-full max-w-full",
+          "w-full transition ease-in-out duration-150 disabled:cursor-not-allowed text-center bg-blue-600 text-white font-medium px-4 py-2 bg-blue-600 hover:bg-blue-900 active:bg-blue-950 disabled:bg-slate-300 w-full max-w-full",
         outline:
           "outline outline-1 outline-blue-600 hover:outline-2 active:outline-4 disabled:outline-slate-300 disabled:text-slate-300 text-blue-600",
         ghost: "hover:text-blue-600 hover:bg-blue-50 disabled:text-slate-300",
@@ -41,7 +41,7 @@ export function Button({
   variant,
   size,
   fullWidth,
-  className = '',
+  className = "",
   ...props
 }: ButtonProps) {
   return (

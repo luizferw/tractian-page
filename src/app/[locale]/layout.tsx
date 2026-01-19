@@ -1,9 +1,10 @@
 import { Inter, Inter_Tight } from "next/font/google";
 import { routing } from "@/i18n/routing";
 import { setRequestLocale } from "next-intl/server";
-import { hasLocale } from "next-intl";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
-import '../../styles/globals.css';
+import { GetDemoDialogProvider } from "@/components/providers/GetDemoDialogProvider";
+import "../../styles/globals.css";
 
 const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
 const interTight = Inter_Tight({
@@ -35,7 +36,12 @@ export default async function LocaleLayout({
       lang={locale}
       className={`${inter.variable} ${interTight.variable} antialiased`}
     >
-      <body>{children}</body>
+      <body>
+        <NextIntlClientProvider>
+          <GetDemoDialogProvider>{children}</GetDemoDialogProvider>
+        </NextIntlClientProvider>
+        <div id="headlessui-portal-root" />
+      </body>
     </html>
   );
 }
