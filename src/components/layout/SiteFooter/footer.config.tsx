@@ -92,8 +92,8 @@ const PARTNER_BADGES: PartnerBadge[] = [
     key="iso9001"
     alt="ISO 9001"
     src="/badges/iso9001.png"
-    height={156}
-    width={156}
+    height={1458}
+    width={1080}
     className="max-w-[56px]"
   />,
   <Image
