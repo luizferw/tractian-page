@@ -36,7 +36,7 @@ export default function SwitchLanguageMenuItem({
           onClick={() => setIsOpen((v) => !v)}
           variant={"ghost"}
           aria-label="Switch Language Button"
-          className="group flex w-full items-center !justify-between gap-x-2 rounded-[2px] px-4 py-1 text-body-sm focus:outline-none lg:bg-transparent lg:bg-opacity-20 lg:px-2 lg:text-slate-50 xl:pl-3 xl:text-body-md hover:bg-transparent"
+          className="group flex w-full items-center !justify-between gap-x-2 rounded-[2px] px-4 !py-1 text-body-sm focus:outline-none lg:bg-transparent lg:bg-opacity-20 lg:px-2 lg:text-slate-50 xl:pl-3 xl:text-body-md hover:bg-transparent"
         >
           <div className="flex items-center gap-x-4">
             <figure>
