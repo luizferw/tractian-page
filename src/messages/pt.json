@@ -182,7 +182,7 @@
       }
     },
     "PeopleBehindMachinesSection": {
-      "backgroundImage": "https://tractian-webpage.s3.us-east-1.amazonaws.com/website/pages/who-we-serve/maintenance-engineer/en/more-than-machines.png",
+      "backgroundImage": "/who-we-serve/more-than-machines.png",
       "titleParts": {
         "p1": "Tenha controle absoluto",
         "p2": "da sua manutenção."
