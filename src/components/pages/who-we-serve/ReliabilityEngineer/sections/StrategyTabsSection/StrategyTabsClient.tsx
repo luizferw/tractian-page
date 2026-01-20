@@ -116,7 +116,7 @@ export default function StrategyTabsClient({
 
                 <h3
                   className={clsx(
-                    "w-full flex-1 text-left !font-tight font-semibold transition-all duration-500 text-body-lg lg:!text-[20px] lg:!leading-[28px]",
+                    "w-full flex-1 text-left lg:!font-tight font-semibold transition-all duration-500 text-body-lg lg:!text-[20px] lg:!leading-[28px]",
                     isActive
                       ? "text-slate-700 group-hover:brightness-110"
                       : "text-slate-400",
