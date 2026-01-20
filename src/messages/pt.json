@@ -30,7 +30,7 @@
             "p2": "Nossa análise de causa raiz assistida por IA cruza dados de vibração, níveis de óleo e histórico de falhas em segundos, mostrando apenas o que é falha real e sua verdadeira causa. Reaja com base em evidências técnicas - não com achismo."
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/elimine-a-causa-raiz.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "src": "/who-we-serve/pt/elimine-a-causa-raiz.png",
             "alt": "Confirme falhas reais, elimine a causa raiz"
           }
         },
@@ -40,8 +40,8 @@
             "p1": "Manter os ativos rodando é metade do trabalho, provar o valor da sua estratégia é a outra. A Tractian transforma seus planos preventivos em resultados concretos. Veja quais intervenções evitaram paradas, onde custos foram poupados e como cada intervenção impacta o desempenho. Visibilidade total para sustentar suas decisões."
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/elimine-a-causa-raiz.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
-            "alt": "Confirme falhas reais, elimine a causa raiz"
+            "src": "/who-we-serve/pt/comprove-que-sua-estrategia-funciona.png",
+            "alt": "Comprove que sua estratégia funciona"
           }
         },
         "focusTime": {
@@ -51,8 +51,8 @@
             "p2": ""
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/elimine-a-causa-raiz.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
-            "alt": "Confirme falhas reais, elimine a causa raiz"
+            "src": "/who-we-serve/pt/integracao-sem-dor-de-cabeca.png",
+            "alt": "Integração sem dor de cabeça"
           }
         },
         "deepenExpertise": {
@@ -61,8 +61,8 @@
             "p1": "Ferramenta nova não pode atrasar o turno e nem virar dor de cabeça. A Tractian é fácil de usar no computador ou celular e, em poucos cliques, o técnico entende o que precisa ser feito, onde e como fazê-lo - com alertas já classificados por criticidade. Com treinamento dedicado e suporte especialista, nenhuma dúvida fica sem resposta."
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/elimine-a-causa-raiz.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
-            "alt": "Confirme falhas reais, elimine a causa raiz"
+            "src": "/who-we-serve/pt/time-engajado.png",
+            "alt": "Time engajado desde o primeiro login"
           }
         }
       }
@@ -83,50 +83,50 @@
             "b4": "Valide o que funcionou e prove impacto do seu plano de confiabilidade de maneira clara."
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/gestao-ciclo-de-vida-das-falhas.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "src": "/who-we-serve/reliability-engineers/pt/gestao-ciclo-de-vida-das-falhas.png",
             "alt": "Conecte alertas, ordens de serviço e intervenções em uma única linha do tempo."
           }
         },
         "singlePaneOfGlass": {
           "label": "Visão Única para Confiabilidade",
-          "title": "Um só lugar para visualizar, gerenciar e agir com base na saúde dos ativos.",
+          "title": "Todos os dados críticos da saúde dos seus ativos, centralizados.",
           "bullets": {
-            "b1": "Monitore todas as tecnologias preditivas em uma única visão — de vibração e lubrificação a análise de óleo, termografia, acústica e mais.",
-            "b2": "Ajuste limites de alarme, intervalos de coleta e lógica de monitoramento para seguir sua estratégia, e não o contrário.",
-            "b3": "Use o AI 360 para consolidar insights de falhas, padronizar diagnósticos e destacar o que é urgente.",
-            "b4": ""
+            "b1": "Monitore vibração, lubrificação, termografia e muito mais em uma só visão.",
+            "b2": "Ajuste limites de alertas, intervalos de coletas e a lógica de monitoramento de acordo com o seu método, não o contrário.",
+            "b3": "A IA da Tractian consolida alertas, padroniza diagnósticos e destaca apenas o que é importante.",
+            "b4": "Integre CLPs, ERPs, sistemas e sensores legados sem reprogramar a planta."
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/visao-unica-para-confiabilidade.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
-            "alt": "Um só lugar para visualizar, gerenciar e agir com base na saúde dos ativos."
+            "src": "/who-we-serve/reliability-engineers/pt/visao-unica-para-confiabilidade.png",
+            "alt": "Todos os dados críticos da saúde dos seus ativos, centralizados."
           }
         },
         "plantWideVisibility": {
           "label": "Supervisório",
-          "title": "Visibilidade total — na planta inteira ou em múltiplas unidades — sem trocar de tela nem correr atrás de atualização.",
+          "title": "Monitore cada ativo da planta - ou de várias unidades - em tempo real.",
           "bullets": {
-            "b1": "Navegue sua fábrica com plantas (floorplans) ao vivo que mostram saúde do ativo, localização e status de relance.",
-            "b2": "Monitoramento escalável multi-site em uma única plataforma. Padronize programas de confiabilidade entre unidades.",
-            "b3": "Identifique riscos em toda a planta mais rápido com criticidade do ativo e contexto de performance integrados.",
-            "b4": "Automatize ingestão de dados e sincronização com CMMS. Gere OS na hora, reduza digitação manual e elimine lacunas."
+            "b1": "Visualize localização, status e condição de todos os ativos em um Supervisório interativo da sua operação.",
+            "b2": "Escale o monitoramento para múltiplas plantas. Padronize KPIs e práticas de confiabilidade em todas as unidades.",
+            "b3": "Mapeie riscos em toda a fábrica com contexto: criticidade, impacto e tendências.",
+            "b4": "Sincronize com seu CMMS e automatize o fluxo de dados. Gere OSs automaticamente, sem abrir múltiplas telas ou subir cada ordem manualmente."
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/supervisorio.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
-            "alt": "Visibilidade total — na planta inteira ou em múltiplas unidades — sem trocar de tela nem correr atrás de atualização."
+            "src": "/who-we-serve/reliability-engineers/pt/supervisorio.png",
+            "alt": "Monitore cada ativo da planta - ou de várias unidades - em tempo real."
           }
         },
         "smartPreventivePlanning": {
           "label": "Planos Preventivos Inteligentes",
-          "title": "Deixe planilhas estáticas para trás — transforme o comportamento real da máquina em planos de manutenção confiáveis.",
+          "title": "Esqueça as planilhas. Reprograme seus planos preventivos de acordo com a condição real do ativo.",
           "bullets": {
-            "b1": "Crie planos preventivos com ciclos customizáveis por tempo, uso ou condição real do ativo.",
-            "b2": "Priorize automaticamente o que é mais crítico — sem achismo nem planilhas desatualizadas.",
-            "b3": "Ajuste os planos a qualquer momento com base em padrões, sinais dos sensores ou insights de falha guiados por IA.",
+            "b1": "Crie planos preventivos com ciclos customizáveis por tempo, uso ou condição das máquinas.",
+            "b2": "A plataforma prioriza o que é crítico - chega de planilhas engessadas.",
+            "b3": "Ajuste os planos a qualquer momento com base nos dados de sensores e insights da IA.",
             "b4": ""
           },
           "image": {
-            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/pt/planos-preventivos-inteligentes.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
-            "alt": "Deixe planilhas estáticas para trás — transforme o comportamento real da máquina em planos de manutenção confiáveis."
+            "src": "/who-we-serve/reliability-engineers/pt/planos-preventivos-inteligentes.png",
+            "alt": "Esqueça as planilhas. Reprograme seus planos preventivos de acordo com a condição real do ativo."
           }
         }
       }
