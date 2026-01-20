@@ -1,6 +1,5 @@
 import SiteFooter from "@/components/layout/SiteFooter/SiteFooter";
 import SiteNav, { SiteNavProps } from "@/components/layout/SiteNav/SiteNav";
-import { Locale } from "@/i18n.config";
 import StrategyTabsSection from "./sections/StrategyTabsSection/StrategyTabsSection";
 import WorkflowTabsSection from "./sections/WorkflowTabsSection/WorkflowTabsSection";
 import BuiltByReliabilitySection from "./sections/BuiltByReliabilitySection/BuiltByReliabilitySection";
@@ -8,14 +7,12 @@ import TestimonialsSection from "./sections/TestimonialSection/TestimonialSectio
 import PeopleBehindMachinesSection from "./sections/PeopleBehindMachinesSession/PeopleBehindMachinesSection";
 import FaqSection from "./sections/FaqSection/FaqSection";
 import HeroSection from "./sections/HeroSection/HeroSection";
+import { useLocale } from "next-intl";
+import { Locale } from "@/i18n.config";
 
-export type ReliabilityEngineerProps = {
-  locale: Locale;
-};
+export default function ReliabilityEngineer() {
+  const locale = useLocale() as Locale
 
-export default function ReliabilityEngineer({
-  locale,
-}: ReliabilityEngineerProps) {
   const availableLocales: SiteNavProps["availableLocales"] = [
     {
       locale: "pt",
