@@ -5,10 +5,11 @@ import FocusBlueIcon from "@/components/icons/FocusBlueIcon";
 import FocusGreenIcon from "@/components/icons/FocusGreenIcon";
 import FocusRedIcon from "@/components/icons/FocusRedIcon";
 import FocusYellowIcon from "@/components/icons/FocusYellowIcon";
+import { localeNames } from "@/i18n.config";
 
 export default function StrategyTabsSection() {
+  const locale = useLocale()
   const t = useTranslations("ReliabilityEngineer.StrategyTabsSection");
-  const locale = useLocale();
 
   const tabs: StrategyTabItem[] = [
     {
@@ -20,8 +21,8 @@ export default function StrategyTabsSection() {
       ].filter(Boolean),
       Image: (
         <Image
-          src={`/who-we-serve/${locale}/confirm-the-failure.png`}
-          alt="Move from fire fighting to fire prevention"
+          src={t("tabs.confirmFailure.image.src")}
+          alt={t("tabs.confirmFailure.image.alt")}
           height={600}
           width={800}
           className="object-contain"
@@ -34,8 +35,8 @@ export default function StrategyTabsSection() {
       body: [t("tabs.proveStrategy.body.p1")].filter(Boolean),
       Image: (
         <Image
-          src={`/who-we-serve/${locale}/prove-your-strategy.png`}
-          alt="Streamline machine troubleshooting"
+          src={t("tabs.proveStrategy.image.src")}
+          alt={t("tabs.proveStrategy.image.alt")}
           height={600}
           width={800}
           className="object-contain"
@@ -51,26 +52,28 @@ export default function StrategyTabsSection() {
       Image: (
         <>
           <Image
-            src={`/who-we-serve/machines.png`}
-            alt="Take work off your plate"
+            src={t("tabs.focusTime.image.src")}
+            alt={t("tabs.focusTime.image.alt")}
             height={350}
             width={600}
             className="object-contain"
           />
-          <div className="absolute inset-0 h-full w-full">
-            <figure className="animate-[fadeIn_1s_both] absolute left-[12%] top-1/2 flex -translate-y-1/2">
-              <FocusYellowIcon />
-            </figure>
-            <figure className="animate-[fadeIn_1s_both] absolute left-[31%] top-[47%] flex -translate-y-1/2 md:left-[34%]">
-              <FocusRedIcon />
-            </figure>
-            <figure className="animate-[fadeIn_1s_both] absolute right-[29%] top-[51%] flex -translate-y-1/2 md:right-[31%]">
-              <FocusGreenIcon />
-            </figure>
-            <figure className="animate-[fadeIn_1s_both] absolute right-[9%] top-[40%] flex -translate-y-1/2">
-              <FocusBlueIcon />
-            </figure>
-          </div>
+          {(locale === localeNames.en || locale === localeNames.es) && (
+            <div className="absolute inset-0 h-full w-full">
+              <figure className="animate-[fadeIn_1s_both] absolute left-[12%] top-1/2 flex -translate-y-1/2">
+                <FocusYellowIcon />
+              </figure>
+              <figure className="animate-[fadeIn_1s_both] absolute left-[31%] top-[47%] flex -translate-y-1/2 md:left-[34%]">
+                <FocusRedIcon />
+              </figure>
+              <figure className="animate-[fadeIn_1s_both] absolute right-[29%] top-[51%] flex -translate-y-1/2 md:right-[31%]">
+                <FocusGreenIcon />
+              </figure>
+              <figure className="animate-[fadeIn_1s_both] absolute right-[9%] top-[40%] flex -translate-y-1/2">
+                <FocusBlueIcon />
+              </figure>
+            </div>
+          )}
         </>
       ),
     },
@@ -80,8 +83,8 @@ export default function StrategyTabsSection() {
       body: [t("tabs.deepenExpertise.body.p1")].filter(Boolean),
       Image: (
         <Image
-          src={`/who-we-serve/${locale}/get-insights.png`}
-          alt="Cut through the noise, focus on what’s critical"
+          src={t("tabs.deepenExpertise.image.src")}
+          alt={t("tabs.deepenExpertise.image.alt")}
           height={800}
           width={920}
           className="object-contain"

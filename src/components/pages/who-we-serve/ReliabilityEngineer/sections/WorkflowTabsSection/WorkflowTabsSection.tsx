@@ -20,7 +20,7 @@ export default function WorkflowTabsSection() {
       Image: (
         <Image
           alt={t("tabs.failureLifecycleTracking.image.alt")}
-          src={`/who-we-serve/reliability-engineers/${locale}/failure-cycle.png`}
+          src={t("tabs.failureLifecycleTracking.image.src")}
           width={1920}
           height={1080}
           className="object-contain"
@@ -40,7 +40,7 @@ export default function WorkflowTabsSection() {
       Image: (
         <Image
           alt={t("tabs.singlePaneOfGlass.image.alt")}
-          src={`/who-we-serve/reliability-engineers/${locale}/single-pane-of-glass.png`}
+          src={t("tabs.singlePaneOfGlass.image.src")}
           width={1920}
           height={1080}
           className="object-contain"
@@ -60,7 +60,7 @@ export default function WorkflowTabsSection() {
       Image: (
         <Image
           alt={t("tabs.plantWideVisibility.image.alt")}
-          src={`/who-we-serve/reliability-engineers/${locale}/plant-wide-visibility.png`}
+          src={t("tabs.plantWideVisibility.image.src")}
           width={1920}
           height={1080}
           className="object-contain"
@@ -80,7 +80,7 @@ export default function WorkflowTabsSection() {
       Image: (
         <Image
           alt={t("tabs.smartPreventivePlanning.image.alt")}
-          src={`/who-we-serve/reliability-engineers/${locale}/smart-preventive-planning.png`}
+          src={t("tabs.smartPreventivePlanning.image.src")}
           width={1920}
           height={1080}
           className="object-contain"
