@@ -21,7 +21,7 @@ function FeatureCard({ featureKey }: { featureKey: FeatureKey }) {
 
   return (
     <div className="flex w-full flex-row items-start gap-4 lg:flex-col lg:items-center">
-      <figure className="flex items-center justify-center rounded-sm bg-white p-[14px] lg:h-24 lg:w-24 lg:p-0">
+      <figure className="flex items-center justify-center rounded-[2px] bg-white p-[14px] lg:h-24 lg:w-24 lg:p-0">
         {icon}
       </figure>
 

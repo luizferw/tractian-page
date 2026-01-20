@@ -41,7 +41,7 @@ export default function FaqAccordionClient({ items }: { items: FaqItem[] }) {
           <div
             key={item.id}
             className={clsx(
-              "cursor-pointer w-full rounded-sm border p-4 transition-colors duration-150 border-slate-300 hover:border-blue-600",
+              "cursor-pointer w-full rounded-[2px] border p-4 transition-colors duration-150 border-slate-300 hover:border-blue-600",
             )}
             onClick={() => toggle(item.id)}
           >

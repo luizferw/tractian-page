@@ -150,7 +150,7 @@ export default function StrategyTabsClient({
 
       <figure
         key={active.id}
-        className="relative animate-[fadeIn_2s_both] flex h-full w-full justify-center rounded-sm lg:h-[320px]"
+        className="relative animate-[fadeIn_2s_both] flex h-full w-full justify-center rounded-[2px] lg:h-[320px]"
       >
         {active?.Image}
       </figure>

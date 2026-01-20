@@ -28,7 +28,7 @@ export default function MenuSubItems(navItem: NavItem) {
                       className="group flex w-full items-center gap-2 "
                       href={subItem.href![locale]}
                     >
-                      <figure className="flex h-8 w-8 items-center justify-center rounded-sm border border-neutral-200 bg-white lg:bg-transparent">
+                      <figure className="flex h-8 w-8 items-center justify-center rounded-[2px] border border-neutral-200 bg-white lg:bg-transparent">
                         {Icon}
                       </figure>
                       <article className="flex w-full flex-1 flex-col">
@@ -61,7 +61,7 @@ export default function MenuSubItems(navItem: NavItem) {
                             className="group flex w-full items-center gap-2 "
                             href={subSubItem.href![locale]}
                           >
-                            <figure className="flex h-8 w-8 items-center justify-center rounded-sm border border-neutral-200 bg-white lg:bg-transparent">
+                            <figure className="flex h-8 w-8 items-center justify-center rounded-[2px] border border-neutral-200 bg-white lg:bg-transparent">
                               {SubIcon}
                             </figure>
                             <article className="flex w-full flex-1 flex-col">
@@ -126,7 +126,7 @@ export default function MenuSubItems(navItem: NavItem) {
                             className="group flex w-full items-center gap-2 "
                             href={subSubItem.href?.[locale]}
                           >
-                            <figure className="flex h-8 w-8 items-center justify-center rounded-sm border border-neutral-200 bg-white lg:bg-transparent">
+                            <figure className="flex h-8 w-8 items-center justify-center rounded-[2px] border border-neutral-200 bg-white lg:bg-transparent">
                               {SubIcon}
                             </figure>
                             <article className="flex w-full flex-1 flex-col">
@@ -186,7 +186,7 @@ export default function MenuSubItems(navItem: NavItem) {
                             className="group flex w-full items-center gap-2 "
                             href={subSubItem.href?.[locale]}
                           >
-                            <figure className="flex h-8 w-8 items-center justify-center rounded-sm border border-neutral-200 bg-white lg:bg-transparent">
+                            <figure className="flex h-8 w-8 items-center justify-center rounded-[2px] border border-neutral-200 bg-white lg:bg-transparent">
                               {SubIcon}
                             </figure>
                             <article className="flex w-full flex-1 flex-col">
@@ -253,8 +253,8 @@ export default function MenuSubItems(navItem: NavItem) {
                             <figure
                               className={
                                 isAbout
-                                  ? "h-[90px] w-[160px] rounded-sm lg:h-[110px] lg:w-[186px]"
-                                  : "flex h-8 w-8 items-center justify-center rounded-sm border border-neutral-200 bg-white lg:bg-transparent"
+                                  ? "h-[90px] w-[160px] rounded-[2px] lg:h-[110px] lg:w-[186px]"
+                                  : "flex h-8 w-8 items-center justify-center rounded-[2px] border border-neutral-200 bg-white lg:bg-transparent"
                               }
                             >
                               {SubIcon}
@@ -318,7 +318,7 @@ export default function MenuSubItems(navItem: NavItem) {
                       className="group flex w-full items-center gap-2 "
                       href={subItem.href![locale]}
                     >
-                      <figure className="flex h-8 w-8 items-center justify-center rounded-sm border border-neutral-200 bg-white lg:bg-transparent">
+                      <figure className="flex h-8 w-8 items-center justify-center rounded-[2px] border border-neutral-200 bg-white lg:bg-transparent">
                         {Icon}
                       </figure>
                       <article className="flex w-full flex-1 flex-col">

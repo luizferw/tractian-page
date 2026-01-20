@@ -116,7 +116,7 @@ export default function WorkflowTabsClient({
                   setActiveId(tab.id);
                 }}
                 className={clsx(
-                  "cursor-pointer w-full rounded-sm px-6 py-1.5 transition-all duration-100 text-body-md sm:w-auto sm:items-start sm:p-4 sm:duration-300 sm:text-tag md:text-body-sm lg:rounded-none lg:px-2 text-body-md xl:px-1 2xl:px-2",
+                  "cursor-pointer w-full rounded-[2px] px-6 py-1.5 transition-all duration-100 text-body-md sm:w-auto sm:items-start sm:p-4 sm:duration-300 sm:text-tag md:text-body-sm lg:rounded-none lg:px-2 text-body-md xl:px-1 2xl:px-2",
                   isActive
                     ? "bg-white font-semibold text-slate-700 shadow-sm sm:bg-transparent sm:font-bold sm:shadow-none"
                     : "text-slate-500 hover:text-slate-600",
@@ -162,7 +162,7 @@ export default function WorkflowTabsClient({
             </article>
           </div>
 
-          <figure className="w-full rounded-sm">
+          <figure className="w-full rounded-[2px]">
             <div className="relative">{active.Image}</div>
           </figure>
         </div>

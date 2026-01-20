@@ -32,7 +32,7 @@ export default function HeroSection() {
       </div>
 
       <div className="absolute inset-0 mx-auto hidden w-full items-center justify-end lg:flex 2xl:right-8 2xl:mr-0">
-        <div className="flex w-full max-w-[240px] flex-col gap-4 rounded-l-sm bg-white px-4 py-4 lg:py-6 2xl:max-w-[280px] 2xl:rounded-sm 2xl:px-5 3xl:max-w-[320px] 3xl:px-6 3xl:py-7 4xl:max-w-[335px]">
+        <div className="flex w-full max-w-[240px] flex-col gap-4 rounded-l-[2px] bg-white px-4 py-4 lg:py-6 2xl:max-w-[280px] 2xl:rounded-[2px] 2xl:px-5 3xl:max-w-[320px] 3xl:px-6 3xl:py-7 4xl:max-w-[335px]">
           <p className="text-slate-500 text-body-sm 2xl:!text-[16px] 2xl:!leading-[24px]">
             {t("quote.text")}
           </p>
