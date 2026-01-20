@@ -27,7 +27,6 @@ export default function WorkflowTabsClient({
     initialActiveId || fallbackId,
   );
 
-  // autoplay control
   const [autoplayDisabled, setAutoplayDisabled] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -46,7 +45,6 @@ export default function WorkflowTabsClient({
   const underlineWidthPx = 288;
   const underlineLeftPx = activeIndex * underlineWidthPx;
 
-  // visibility observer
   useEffect(() => {
     const el = containerRef.current;
     if (!el) return;
@@ -60,7 +58,6 @@ export default function WorkflowTabsClient({
     return () => observer.disconnect();
   }, []);
 
-  // autoplay timer (only while visible; stops forever after manual interaction)
   useEffect(() => {
     if (!isVisible) return;
     if (autoplayDisabled) return;
@@ -93,7 +90,6 @@ export default function WorkflowTabsClient({
 
   return (
     <div ref={containerRef} className="mx-auto flex w-full flex-col gap-12">
-      {/* Tabs */}
       <div className="relative mx-auto mt-2 flex w-full flex-col bg-[#F4F4F9] py-1 sm:flex-row sm:bg-transparent sm:py-0 lg:mt-0">
         {tabs.map((tab, idx) => {
           const isActive = idx === activeIndex;
@@ -139,7 +135,6 @@ export default function WorkflowTabsClient({
         />
       </div>
 
-      {/* Content */}
       <article className="flex w-full justify-between gap-8 lg:gap-12">
         <div
           key={active.id}
