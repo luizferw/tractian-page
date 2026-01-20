@@ -416,5 +416,10 @@
       },
       "submitButton": "Solicitar demonstração"
     }
+  },
+  "NotFound": {
+    "title": "Nossos sensores detectaram um downtime inesperado na página acessada.",
+    "description": "Não se preocupe, estamos trabalhando nisso.",
+    "ctaLabel": "Voltar à página inicial"
   }
 }

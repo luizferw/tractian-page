@@ -429,5 +429,10 @@
       },
       "submitButton": "Request demo"
     }
+  },
+  "NotFound": {
+    "title": "Our sensors have detected an unexpected downtime on the current page.",
+    "description": "Don't worry, we're working on it.",
+    "ctaLabel": "Return to Home"
   }
 }
