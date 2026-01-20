@@ -75,7 +75,7 @@ export default function FaqAccordionClient({ items }: { items: FaqItem[] }) {
               <div className="overflow-hidden">
                 <div
                   className={clsx(
-                    "pt-3 text-left text-slate-500 text-body-md transition-all duration-150 ease-out",
+                    "pt-2 text-left text-slate-500 text-body-md transition-all duration-150 ease-out",
                     open
                       ? "opacity-100 translate-y-0"
                       : "opacity-0 -translate-y-1",
