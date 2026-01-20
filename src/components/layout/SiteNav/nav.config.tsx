@@ -382,7 +382,7 @@ export const navItems: NavItem[] = [
               [L.pt]: "/industria/setor-mineracao",
               [L.es]: "/es/industria/sector-de-la-mineria",
             },
-            locales: [L.en, L.pt, L.es],
+            locales: [L.pt, L.es],
           },
           {
             id: "chemicals",
@@ -404,7 +404,7 @@ export const navItems: NavItem[] = [
               [L.pt]: "/industria/usinas-e-agricola",
               [L.es]: "/es/industria/azucareras-y-agricola",
             },
-            locales: [L.en, L.pt, L.es],
+            locales: [L.pt, L.es],
           },
           {
             id: "facilities",
@@ -483,6 +483,28 @@ export const navItems: NavItem[] = [
               [L.es]: "/es/industria/energeticos",
             },
             locales: [L.es],
+          },
+          {
+            id: "millsAndAgriculture",
+            labelMessageKey: "millsAndAgriculture",
+            icon: <MillsAndAgricultureIcon />,
+            href: {
+              [L.en]: "/en/industry/mills-and-agriculture",
+              [L.pt]: "/industria/usinas-e-agricola",
+              [L.es]: "/es/industria/azucareras-y-agricola",
+            },
+            locales: [L.en],
+          },
+          {
+            id: "miningAndMetals",
+            labelMessageKey: "miningAndMetals",
+            icon: <MiningIcon />,
+            href: {
+              [L.en]: "/en/industry/mining-sector",
+              [L.pt]: "/industria/setor-mineracao",
+              [L.es]: "/es/industria/sector-de-la-mineria",
+            },
+            locales: [L.en],
           },
           {
             id: "oilAndGas",
