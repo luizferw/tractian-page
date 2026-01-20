@@ -5,7 +5,7 @@ import {
   ComboboxInput,
   ComboboxOption,
   ComboboxOptions,
-} from "@headlessui/react";
+} from "@/components/ui/Headless/Combobox";
 import clsx from "clsx";
 import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
 import { Option } from "./Form";

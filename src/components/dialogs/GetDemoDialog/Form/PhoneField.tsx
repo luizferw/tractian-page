@@ -1,6 +1,6 @@
 "use client";
 
-import { PhoneInput } from "react-international-phone";
+import { PhoneInput } from "@/components/ui/PhoneInput/PhoneInput";
 import clsx from "clsx";
 
 type CountryOption = {

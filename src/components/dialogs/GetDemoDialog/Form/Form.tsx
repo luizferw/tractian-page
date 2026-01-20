@@ -1,7 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/Button/Button";
-import { Field, Input } from "@headlessui/react";
+import { Field, Input } from "@/components/ui/Headless/Field";
 import { useEffect, useId, useRef, useState, useCallback } from "react";
 import { JobTitleCombobox } from "./JobTitleCombobox";
 import { IndustrySectorCombobox } from "./IndustrySectorCombobox";

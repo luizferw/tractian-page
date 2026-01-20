@@ -9,7 +9,7 @@ import {
   DialogPanel,
   DialogTitle,
   TransitionChild,
-} from "@headlessui/react";
+} from "@/components/ui/Headless/Dialog";
 import Form from "./Form/Form";
 import { useTranslations } from "next-intl";
 import { Fragment } from "react/jsx-runtime";
