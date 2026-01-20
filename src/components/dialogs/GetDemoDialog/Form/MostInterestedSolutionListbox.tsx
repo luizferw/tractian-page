@@ -49,19 +49,18 @@ export default function MostInterestedSolutionListbox({
             <span className={cn("text-slate-500", value && "text-slate-700")}>
               {selected ? selected.label : t("form.solution.placeholder")}
             </span>
-            {errorMessage ? (
-              <div className="absolute right-4 top-1/2 flex -translate-y-1/2 items-center justify-center">
+            {errorMessage && (
+              <div className="absolute right-10 top-1/2 flex -translate-y-1/2 items-center justify-center">
                 <span className="relative flex size-5 items-center justify-center rounded-full bg-red-500 font-bold text-white text-tag">
                   !
                 </span>
               </div>
-            ) : (
-              <ChevronDownIcon
-                data-open={open}
-                className="text-slate-400 data-[open=true]:-rotate-180 group pointer-events-none absolute top-4 right-3 size-4"
-                aria-hidden="true"
-              />
             )}
+            <ChevronDownIcon
+              data-open={open}
+              className="text-slate-400 data-[open=true]:-rotate-180 group pointer-events-none absolute top-4 right-3 size-4"
+              aria-hidden="true"
+            />
           </ListboxButton>
 
           {/* Hidden input para manter submit do form igual ao <select> */}

@@ -45,7 +45,7 @@ export default function PhoneField({
           }}
         />
         {errorMessage && (
-          <div className="absolute right-4 top-1/2 flex -translate-y-1/2 items-center justify-center">
+          <div className="absolute z-[99] right-4 top-1/2 flex -translate-y-1/2 items-center justify-center">
             <span className="relative flex size-5 items-center justify-center rounded-full bg-red-500 font-bold text-white text-tag">
               !
             </span>
