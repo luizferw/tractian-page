@@ -155,28 +155,28 @@
           "name": "Jacob H.",
           "role": "Ingeniero de Confiabilidad",
           "company": "Ingredion, NC",
-          "image": "/images/testimonials/jacob.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/jacob.png",
           "quote": "Hubo algunos problemas que, de no ser por Tractian, nunca habríamos notado. Por ejemplo, un problema de lubricación. Podíamos salir, lubricar, volver a verificar en la plataforma de Tractian y ver que el problema se había solucionado. Los resultados que obtuvimos desde el inicio fueron impresionantes."
         },
         "gautam": {
           "name": "Gautam S.",
           "role": "Ingeniero de Confiabilidad",
           "company": "",
-          "image": "/images/testimonials/gautam.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/gautam.png",
           "quote": "Estoy realmente impresionado con las métricas de confiabilidad que Tractian es capaz de calcular en tiempo real y con el nivel de detalle en los modos de falla y la generación de insights. Tractian realmente ha mejorado la disponibilidad de nuestros activos."
         },
         "helio": {
           "name": "Helio B.",
           "role": "Ingeniero de Confiabilidad",
           "company": "Ingredion",
-          "image": "/images/testimonials/helio.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/helio.png",
           "quote": "Tenemos alrededor de 18,500 activos y solo 3 inspectores para atenderlos. Antes, los técnicos tenían que salir a piso y revisar cada uno manualmente. Te puedes imaginar cuánto tiempo tomaba eso. Ahora, con el monitoreo remoto en tiempo real, podemos supervisarlos a todos desde cualquier lugar."
         },
         "rafael": {
           "name": "Rafael P.",
           "role": "Director de Confiabilidad y Mantenimiento",
           "company": "Ingredion, IL",
-          "image": "/images/testimonials/rafael.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/rafael.png",
           "quote": "Me di cuenta de que necesitábamos hacer algo diferente, este es el momento de incorporar tecnología. Los roles de confiabilidad están evolucionando: nos estamos convirtiendo en científicos de datos, no solo en quienes usan llaves y pinzas."
         }
       }
@@ -188,48 +188,48 @@
         "p2": "de las máquinas."
       },
       "descriptionParts": {
-        "p1": "El mantenimiento no se trata solo de máquinas.",
-        "p2": "Se trata de las personas que las mantienen trabajando:",
-        "p3": "las que resuelven problemas, toman decisiones y mantienen el",
+        "p1": "El mantenimiento no se trata solo de máquinas. Se trata",
+        "p2": "de las personas que las mantienen trabajando: las que",
+        "p3": "resuelven problemas, toman decisiones y mantienen el",
         "p4": "mundo en marcha."
       },
       "cta": "Elige Tractian"
     },
     "FaqSection": {
       "eyebrow": "FAQ",
-      "title": "Frequently Asked Questions",
+      "title": "Preguntas frecuentes",
       "items": {
         "howDoesTractianHelp": {
-          "question": "How does Tractian help reliability engineers?",
-          "answerHtml": "Tractian equips reliability teams with real-time data, actionable insights, and historical context - so you’re not just reacting, you’re improving. From automated condition monitoring to failure timelines and SOPs, we help you reduce unplanned downtime, confirm issues faster, and fine-tune your reliability program based on hard data, not assumptions."
+          "question": "¿Cómo ayuda Tractian a los ingenieros de confiabilidad?",
+          "answerHtml": "Tractian brinda a los equipos de confiabilidad datos en tiempo real, insights accionables y contexto histórico, para que no solo reaccionen, sino que mejoren. Desde monitoreo por condición automatizado hasta líneas de tiempo de fallas y SOPs (Procedimiento Operativo Estándar), te ayudamos a reducir paros no planificados, confirmar fallas más rápido y afinar tu programa de confiabilidad con datos reales, no suposiciones."
         },
         "supportExistingProgram": {
-          "question": "Can Tractian support our existing reliability program?",
-          "answerHtml": "Yes. Tractian is built to integrate seamlessly into your current reliability framework. Whether you're building out a full FMEA strategy or refining RCA processes, our platform delivers the asset-level insights you need: criticality rankings, diagnostic histories, and intervention outcomes."
+          "question": "¿Tractian puede integrarse con nuestro programa de confiabilidad actual?",
+          "answerHtml": "Sí. Tractian está diseñado para integrarse fácilmente a tu marco de confiabilidad actual. Ya sea que estés implementando una estrategia FMEA completa o afinando tus procesos de RCA, nuestra plataforma te da la información que necesitas a nivel de activo: rankings de criticidad, historiales de diagnóstico y resultados de intervenciones."
         },
         "supportsBeyondReliability": {
-          "question": "Does Tractian support roles beyond reliability engineers?",
-          "answerHtml": "Absolutely. Tractian is used by Predictive Analysts, Vibration Technicians, Reliability Managers, Maintenance Engineers, and anyone involved in condition-based or proactive maintenance. If your job includes monitoring asset health, tracking performance, or avoiding costly failures, you’re in the right place."
+          "question": "¿Tractian es útil para roles más allá de los ingenieros de confiabilidad?",
+          "answerHtml": "Desde luego. Tractian lo usan analistas predictivos, técnicos en vibraciones, gerentes de confiabilidad, ingenieros de mantenimiento, gerentes de planta y cualquier persona involucrada en mantenimiento predictivo o proactivo. Si tu trabajo incluye monitorear la salud de activos, seguir su desempeño o evitar fallas costosas, estás en el lugar correcto."
         },
         "failureConfirmationRca": {
-          "question": "How can Tractian help with failure confirmation and root cause analysis?",
-          "answerHtml": "Our AI-powered diagnostics filter out false alarms and focus your attention on what’s real. You get machine-specific fault detection (like bearing wear or cavitation), with supporting data like vibration trends, spectral analysis, and lubrication conditions. Every alert links to an asset timeline, so you can track how issues evolved - and what resolved them."
+          "question": "¿Cómo ayuda Tractian con la confirmación de fallas y el análisis de causa raíz?",
+          "answerHtml": "Nuestros <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/es/soluciones/monitoreo-condicion/insights-y-diagnosticos\">diagnósticos con IA</a> filtran las falsas alarmas y enfocan tu atención en lo que realmente importa. Obtienes detección de fallas específicas por máquina (como desgaste de rodamientos o cavitación), junto con datos de respaldo como tendencias de vibración, análisis espectral y condiciones de lubricación. Cada alerta se vincula a una línea de tiempo del activo, para que puedas seguir cómo evolucionó el problema y qué lo resolvió."
         },
         "reduceReactiveMaintenance": {
-          "question": "Can Tractian help us reduce reactive maintenance?",
-          "answerHtml": "Yes. With real-time condition monitoring and CMMS in one platform, Tractian helps you move from reactive to proactive. Alerts trigger work orders automatically, ensuring issues are addressed fast and documented fully. Over time, this visibility helps you optimize intervals, adjust PM routes, and measure the actual impact of your strategies."
+          "question": "¿Tractian puede ayudarnos a reducir el mantenimiento reactivo?",
+          "answerHtml": "Sí. Con <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/es/soluciones/monitoreo-condicion/smart-trac\">monitoreo de condición en tiempo real</a> y un <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/es/cmms/tracos\">CMMS</a> en una sola plataforma, Tractian te ayuda a pasar de reactivo a proactivo. Las alertas generan órdenes de trabajo automáticamente, asegurando que los problemas se atiendan rápido y queden documentados. Con el tiempo, esta visibilidad te permite optimizar frecuencias, ajustar rutas de PM y medir el impacto real de tus estrategias."
         },
         "preventiveMaintenance": {
-          "question": "How does Tractian help with preventive maintenance?",
-          "answerHtml": "Yes. Instead of relying on calendar-based PMs, Tractian lets you act based on actual equipment condition. That means fewer unnecessary stops, smarter scheduling, and more uptime."
+          "question": "¿Cómo ayuda Tractian con el mantenimiento preventivo?",
+          "answerHtml": "Tractian te permite actuar con base en la condición real del equipo, en lugar de seguir PMs basados en el calendario. Esto significa menos paradas innecesarias, programación más inteligente y mayor tiempo de actividad."
         },
         "onlyForLargeOperations": {
-          "question": "Is Tractian only for large industrial operations?",
-          "answerHtml": "Not at all. Tractian is used by both large-scale manufacturers and small, resource-constrained teams. If downtime is a problem, Tractian is a fit - no matter your size."
+          "question": "¿Tractian es solo para operaciones industriales grandes?",
+          "answerHtml": "Para nada. Tractian lo utilizan tanto fabricantes a gran escala como equipos pequeños con recursos limitados. Si el tiempo muerto es un problema, Tractian es una solución, sin importar el tamaño."
         },
         "trainingAndTurnover": {
-          "question": "How does Tractian help with technician training and turnover?",
-          "answerHtml": "Hiring skilled technicians is tough - and keeping them is even tougher. Tractian reduces the burden of constant retraining by recommending corrective actions, auto-generating SOPs, and giving step-by-step guidance tailored to the failure at hand. That way, even newer techs know what to do and where to go - without having to rely on tribal knowledge or shadowing a senior engineer. It’s like giving every technician superpowers, no matter their experience level."
+          "question": "¿Cómo ayuda Tractian con la capacitación de técnicos y la rotación de personal?",
+          "answerHtml": "Contratar técnicos calificados es difícil y retenerlos, aún más. Tractian reduce la necesidad de reentrenamiento constante al recomendar acciones correctivas, generar SOPs automáticamente y ofrecer instrucciones paso a paso según la falla. Así, incluso los técnicos nuevos saben qué hacer y a dónde ir, sin depender del conocimiento informal ni de seguir a un técnico más experimentado. Es como darle superpoderes a cada técnico, sin importar su nivel de experiencia."
         }
       }
     }
@@ -332,13 +332,13 @@
       "downloadApp": "Download Our App"
     },
     "links": {
-      "overview": "Visión general",
+      "overview": "Visión General",
       "insightsAndDiagnostics": "Insights y Diagnósticos",
       "vibrationAnalysis": "Analisis de Vibraciones",
       "monitoredAssets": "Activos Monitoreados",
       "supervisory": "Supervisor",
 
-      "overviewOEE": "Visión general",
+      "overviewOEE": "Visión General",
       "assetPerformanceManagement": "Asset Performance Management",
       "energyReports": "Informes de Energia",
       "processMonitoring": "Monitoreo de procesos",
@@ -347,11 +347,11 @@
       "supervisoryOEE": "Supervisor",
 
       "overviewCMMS": "CMMS Potenciado por IA",
-      "planningAndScheduling": "Planificación y Programación",
+      "planningAndScheduling": "Planeación y Programación",
       "workOrderManagement": "Gestión de Órdenes de Trabajo",
       "materialsManagement": "Gestión de Materiales",
       "automaticProcedures": "Procedimentos Automaticos",
-      "mobileApp": "Aplicación móvil",
+      "mobileApp": "Aplicación Móvil",
       "geolocation": "Geolocalización",
       "kpisDashboards": "Indicadores Dashboards Mantenimiento",
 

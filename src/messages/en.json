@@ -83,7 +83,7 @@
             "b4": "Track what worked, what didn’t, and validate your reliability program with impact data."
           },
           "image": {
-            "src": "/who-we-serve/reliability-engineers/failure-cycle.png",
+            "src": "/who-we-serve/reliability-engineers/en/failure-cycle.png",
             "alt": "Get the full picture with a timeline that connects every alert, diagnostic, and action."
           }
         },
@@ -97,7 +97,7 @@
             "b4": ""
           },
           "image": {
-            "src": "/who-we-serve/reliability-engineers/single-pane-of-glass.png",
+            "src": "/who-we-serve/reliability-engineers/en/single-pane-of-glass.png",
             "alt": "One place to see, manage, and act on the full picture of asset health."
           }
         },
@@ -111,7 +111,7 @@
             "b4": "Automate data ingestion and CMMS syncing. Generate work orders instantly, reduce manual entry, and eliminate gaps."
           },
           "image": {
-            "src": "/who-we-serve/reliability-engineers/plant-wide-visibility.png",
+            "src": "/who-we-serve/reliability-engineers/en/plant-wide-visibility.png",
             "alt": "Get total visibility - across the plant or across the country - without switching tabs or chasing down updates."
           }
         },
@@ -125,7 +125,7 @@
             "b4": ""
           },
           "image": {
-            "src": "/who-we-serve/reliability-engineers/smart-preventive-planning.png",
+            "src": "/who-we-serve/reliability-engineers/en/smart-preventive-planning.png",
             "alt": "Ditch static spreadsheets - turn real machine behavior into reliable maintenance schedules."
           }
         }
@@ -155,28 +155,28 @@
           "name": "Jacob H.",
           "role": "Reliability Engineer",
           "company": "Ingredion, NC",
-          "image": "/who-we-serve/reliability-engineers/en/testimonials/jacob.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/jacob.png",
           "quote": "There were some issues that, if not for having Tractian, we would have never noticed… For example, a lubrication problem, we could go out and lubricate it and recheck it on Tractian platform and see that it fixed the problem… It was pretty impressive for that, the results we got early on."
         },
         "gautam": {
           "name": "Gautam S.",
           "role": "Reliability Engineer",
           "company": "",
-          "image": "/who-we-serve/reliability-engineers/en/testimonials/gautam.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/gautam.png",
           "quote": "I'm really impressed by the reliability metrics that Tractian is able to calculate in real time, and the level of detail when it comes to the failure modes and the insight generation. Tractian has really improved our asset availability."
         },
         "helio": {
           "name": "Helio B.",
           "role": "Reliability Engineer",
           "company": "Ingredion",
-          "image": "/who-we-serve/reliability-engineers/en/testimonials/helio.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/helio.png",
           "quote": "We’ve got about 18,500 assets and only 3 inspectors to handle them. Before, technicians had to go out on the floor and check each one manually. You can imagine how long that took. Now, with remote real-time monitoring, we’re able to keep tabs on all of them from anywhere."
         },
         "rafael": {
           "name": "Rafael P.",
           "role": "Maintenance & Reliability Director",
           "company": "Ingredion, IL",
-          "image": "/who-we-serve/reliability-engineers/en/testimonials/rafael.png",
+          "image": "/who-we-serve/reliability-engineers/testimonials/rafael.png",
           "quote": "I said, ‘We need to do something different. The way we’re doing maintenance - it can be easier, faster, smarter.’ This is the moment to bring in technology. We’re not heading toward job loss - we’re heading toward a new era. Reliability roles are evolving. We're becoming data scientists, not just wrench turners."
         }
       }

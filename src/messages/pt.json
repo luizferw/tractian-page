@@ -149,35 +149,35 @@
       }
     },
     "TestimonialsSection": {
-      "title": "Veja o que dizem as pessoas que usam todos os dias",
+      "title": "Saiba a opinião de quem usa Tractian todos os dias",
       "items": {
-        "jacob": {
-          "name": "Jacob H.",
-          "role": "Engenheiro de Confiabilidade",
-          "company": "Ingredion, NC",
-          "image": "/images/testimonials/jacob.png",
-          "quote": "Houve alguns problemas que, se não fosse o Tractian, nunca teríamos percebido. Por exemplo, um problema de lubrificação. Conseguimos ir até o equipamento, lubrificar, revisar novamente na plataforma e ver que o problema foi resolvido. Os resultados iniciais foram impressionantes."
+        "renato": {
+          "name": "Renato T.",
+          "role": "Gerente de Manutenção",
+          "company": "Inpasa",
+          "image": "/who-we-serve/reliability-engineers/testimonials/renato.png",
+          "quote": "A grande diferença é que agora, com os sensores, os problemas nos procuram, esse é o grande facilitador. Temos muito mais segurança de que teremos um diagnóstico em tempo hábil para atuar antes da falha funcional dos equipamentos."
         },
-        "gautam": {
-          "name": "Gautam S.",
-          "role": "Engenheiro de Confiabilidade",
-          "company": "",
-          "image": "/images/testimonials/gautam.png",
-          "quote": "Fiquei muito impressionado com as métricas de confiabilidade que o Tractian consegue calcular em tempo real e com o nível de detalhe nos modos de falha e na geração de insights. O Tractian realmente melhorou a disponibilidade dos nossos ativos."
+        "marcio": {
+          "name": "Marcio O.",
+          "role": "Gerente Nacional de Manutenção",
+          "company": "Grupo Bimbo",
+          "image": "/who-we-serve/reliability-engineers/testimonials/marcio.png",
+          "quote": "A solução da Tractian aumentou a velocidade da nossa tomada de decisão. As informações que a plataforma fornece são resultado de uma tecnologia avançada. Facilitou muito a nossa vida."
         },
-        "helio": {
-          "name": "Helio B.",
-          "role": "Engenheiro de Confiabilidade",
-          "company": "Ingredion",
-          "image": "/images/testimonials/helio.png",
-          "quote": "Temos cerca de 18.500 ativos e apenas 3 inspetores para cuidar de tudo. Antes, os técnicos precisavam ir até o chão de fábrica e verificar cada um manualmente. Dá pra imaginar quanto tempo isso levava. Agora, com o monitoramento remoto em tempo real, conseguimos acompanhar tudo de qualquer lugar."
+        "bruno": {
+          "name": "Bruno O.",
+          "role": "Coordenador de Manutenção",
+          "company": "ICONIC",
+          "image": "/who-we-serve/reliability-engineers/testimonials/bruno.png",
+          "quote": "Hoje não existe parada de máquina sem que a manutenção saiba exatamente o que vai fazer. Cada parada é alinhada com ordens de serviço já direcionadas (peças, fornecedores e recursos planejados) para executar no menor tempo e devolver a disponibilidade da linha."
         },
-        "rafael": {
-          "name": "Rafael P.",
-          "role": "Diretor de Manutenção e Confiabilidade",
-          "company": "Ingredion, IL",
-          "image": "/images/testimonials/rafael.png",
-          "quote": "Eu disse: precisamos fazer algo diferente. A forma como fazemos manutenção pode ser mais fácil, mais rápida, mais inteligente. Esse é o momento de trazer tecnologia. Não estamos caminhando para a perda de empregos — estamos entrando em uma nova era. Os profissionais de confiabilidade estão evoluindo. Estamos nos tornando cientistas de dados, não apenas operadores de ferramentas."
+        "vinicius": {
+          "name": "Vinicius A.",
+          "role": "Gerente de Manutenção",
+          "company": "The Fini Company",
+          "image": "/who-we-serve/reliability-engineers/testimonials/vinicius.png",
+          "quote": "Com a implementação da solução da Tractian, atacamos a indisponibilidade e ajustamos a gestão diária da manutenção utilizando o CMMS, o que nos permitiu um planejamento mais organizado e com maior antecedência."
         }
       }
     },
