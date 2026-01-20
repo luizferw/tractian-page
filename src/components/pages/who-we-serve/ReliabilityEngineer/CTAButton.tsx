@@ -1,7 +1,7 @@
 "use client";
 
 import { useGetDemoDialog } from "@/components/providers/GetDemoDialogProvider";
-import { cn } from "@/lib/cn";
+import { cnRaw } from "@/lib/cn";
 import { useTranslations } from "next-intl";
 import ArrowRightIcon from "@/components/icons/ArrowRightIcon";
 
@@ -25,7 +25,7 @@ export default function CTAButton({
       type="button"
       onClick={() => open()}
     >
-      <p className={cn("text-white text-label-md", className)}>
+      <p className={cnRaw("text-white text-label-md", className)}>
         {label ?? t("ctaLabel")}
       </p>
       {showArrow && <ArrowRightIcon className="size-4" />}
