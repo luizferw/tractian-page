@@ -201,35 +201,35 @@
       "items": {
         "howDoesTractianHelp": {
           "question": "How does Tractian help reliability engineers?",
-          "answerHtml": "Tractian equips reliability teams with real-time data, actionable insights, and historical context - so you’re not just reacting, you’re improving. From automated condition monitoring to failure timelines and SOPs, we help you reduce unplanned downtime, confirm issues faster, and fine-tune your reliability program based on hard data, not assumptions."
+          "answer": "Tractian equips reliability teams with real-time data, actionable insights, and historical context - so you’re not just reacting, you’re improving. From automated condition monitoring to failure timelines and SOPs, we help you reduce unplanned downtime, confirm issues faster, and fine-tune your reliability program based on hard data, not assumptions."
         },
         "supportExistingProgram": {
           "question": "Can Tractian support our existing reliability program?",
-          "answerHtml": "Yes. Tractian is built to integrate seamlessly into your current reliability framework. Whether you're building out a full FMEA strategy or refining RCA processes, our platform delivers the asset-level insights you need: criticality rankings, diagnostic histories, and intervention outcomes."
+          "answer": "Yes. Tractian is built to integrate seamlessly into your current reliability framework. Whether you're building out a full FMEA strategy or refining RCA processes, our platform delivers the asset-level insights you need: criticality rankings, diagnostic histories, and intervention outcomes."
         },
         "supportsBeyondReliability": {
           "question": "Does Tractian support roles beyond reliability engineers?",
-          "answerHtml": "Absolutely. Tractian is used by Predictive Analysts, Vibration Technicians, Reliability Managers, Maintenance Engineers, and anyone involved in condition-based or proactive maintenance. If your job includes monitoring asset health, tracking performance, or avoiding costly failures, you’re in the right place."
+          "answer": "Absolutely. Tractian is used by Predictive Analysts, Vibration Technicians, Reliability Managers, Maintenance Engineers, and anyone involved in condition-based or proactive maintenance. If your job includes monitoring asset health, tracking performance, or avoiding costly failures, you’re in the right place."
         },
         "failureConfirmationRca": {
           "question": "How can Tractian help with failure confirmation and root cause analysis?",
-          "answerHtml": "Our AI-powered diagnostics filter out false alarms and focus your attention on what’s real. You get machine-specific fault detection (like bearing wear or cavitation), with supporting data like vibration trends, spectral analysis, and lubrication conditions. Every alert links to an asset timeline, so you can track how issues evolved - and what resolved them."
+          "answer": "Our AI-powered diagnostics filter out false alarms and focus your attention on what’s real. You get machine-specific fault detection (like bearing wear or cavitation), with supporting data like vibration trends, spectral analysis, and lubrication conditions. Every alert links to an asset timeline, so you can track how issues evolved - and what resolved them."
         },
         "reduceReactiveMaintenance": {
           "question": "Can Tractian help us reduce reactive maintenance?",
-          "answerHtml": "Yes. With real-time condition monitoring and CMMS in one platform, Tractian helps you move from reactive to proactive. Alerts trigger work orders automatically, ensuring issues are addressed fast and documented fully. Over time, this visibility helps you optimize intervals, adjust PM routes, and measure the actual impact of your strategies."
+          "answer": "Yes. With real-time condition monitoring and CMMS in one platform, Tractian helps you move from reactive to proactive. Alerts trigger work orders automatically, ensuring issues are addressed fast and documented fully. Over time, this visibility helps you optimize intervals, adjust PM routes, and measure the actual impact of your strategies."
         },
         "preventiveMaintenance": {
           "question": "How does Tractian help with preventive maintenance?",
-          "answerHtml": "Yes. Instead of relying on calendar-based PMs, Tractian lets you act based on actual equipment condition. That means fewer unnecessary stops, smarter scheduling, and more uptime."
+          "answer": "Yes. Instead of relying on calendar-based PMs, Tractian lets you act based on actual equipment condition. That means fewer unnecessary stops, smarter scheduling, and more uptime."
         },
         "onlyForLargeOperations": {
           "question": "Is Tractian only for large industrial operations?",
-          "answerHtml": "Not at all. Tractian is used by both large-scale manufacturers and small, resource-constrained teams. If downtime is a problem, Tractian is a fit - no matter your size."
+          "answer": "Not at all. Tractian is used by both large-scale manufacturers and small, resource-constrained teams. If downtime is a problem, Tractian is a fit - no matter your size."
         },
         "trainingAndTurnover": {
           "question": "How does Tractian help with technician training and turnover?",
-          "answerHtml": "Hiring skilled technicians is tough - and keeping them is even tougher. Tractian reduces the burden of constant retraining by recommending corrective actions, auto-generating SOPs, and giving step-by-step guidance tailored to the failure at hand. That way, even newer techs know what to do and where to go - without having to rely on tribal knowledge or shadowing a senior engineer. It’s like giving every technician superpowers, no matter their experience level."
+          "answer": "Hiring skilled technicians is tough - and keeping them is even tougher. Tractian reduces the burden of constant retraining by recommending corrective actions, auto-generating SOPs, and giving step-by-step guidance tailored to the failure at hand. That way, even newer techs know what to do and where to go - without having to rely on tribal knowledge or shadowing a senior engineer. It’s like giving every technician superpowers, no matter their experience level."
         }
       }
     }

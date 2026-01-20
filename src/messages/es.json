@@ -201,35 +201,35 @@
       "items": {
         "howDoesTractianHelp": {
           "question": "¿Cómo ayuda Tractian a los ingenieros de confiabilidad?",
-          "answerHtml": "Tractian brinda a los equipos de confiabilidad datos en tiempo real, insights accionables y contexto histórico, para que no solo reaccionen, sino que mejoren. Desde monitoreo por condición automatizado hasta líneas de tiempo de fallas y SOPs (Procedimiento Operativo Estándar), te ayudamos a reducir paros no planificados, confirmar fallas más rápido y afinar tu programa de confiabilidad con datos reales, no suposiciones."
+          "answer": "Tractian brinda a los equipos de confiabilidad datos en tiempo real, insights accionables y contexto histórico, para que no solo reaccionen, sino que mejoren. Desde monitoreo por condición automatizado hasta líneas de tiempo de fallas y SOPs (Procedimiento Operativo Estándar), te ayudamos a reducir paros no planificados, confirmar fallas más rápido y afinar tu programa de confiabilidad con datos reales, no suposiciones."
         },
         "supportExistingProgram": {
           "question": "¿Tractian puede integrarse con nuestro programa de confiabilidad actual?",
-          "answerHtml": "Sí. Tractian está diseñado para integrarse fácilmente a tu marco de confiabilidad actual. Ya sea que estés implementando una estrategia FMEA completa o afinando tus procesos de RCA, nuestra plataforma te da la información que necesitas a nivel de activo: rankings de criticidad, historiales de diagnóstico y resultados de intervenciones."
+          "answer": "Sí. Tractian está diseñado para integrarse fácilmente a tu marco de confiabilidad actual. Ya sea que estés implementando una estrategia FMEA completa o afinando tus procesos de RCA, nuestra plataforma te da la información que necesitas a nivel de activo: rankings de criticidad, historiales de diagnóstico y resultados de intervenciones."
         },
         "supportsBeyondReliability": {
           "question": "¿Tractian es útil para roles más allá de los ingenieros de confiabilidad?",
-          "answerHtml": "Desde luego. Tractian lo usan analistas predictivos, técnicos en vibraciones, gerentes de confiabilidad, ingenieros de mantenimiento, gerentes de planta y cualquier persona involucrada en mantenimiento predictivo o proactivo. Si tu trabajo incluye monitorear la salud de activos, seguir su desempeño o evitar fallas costosas, estás en el lugar correcto."
+          "answer": "Desde luego. Tractian lo usan analistas predictivos, técnicos en vibraciones, gerentes de confiabilidad, ingenieros de mantenimiento, gerentes de planta y cualquier persona involucrada en mantenimiento predictivo o proactivo. Si tu trabajo incluye monitorear la salud de activos, seguir su desempeño o evitar fallas costosas, estás en el lugar correcto."
         },
         "failureConfirmationRca": {
           "question": "¿Cómo ayuda Tractian con la confirmación de fallas y el análisis de causa raíz?",
-          "answerHtml": "Nuestros <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/es/soluciones/monitoreo-condicion/insights-y-diagnosticos\">diagnósticos con IA</a> filtran las falsas alarmas y enfocan tu atención en lo que realmente importa. Obtienes detección de fallas específicas por máquina (como desgaste de rodamientos o cavitación), junto con datos de respaldo como tendencias de vibración, análisis espectral y condiciones de lubricación. Cada alerta se vincula a una línea de tiempo del activo, para que puedas seguir cómo evolucionó el problema y qué lo resolvió."
+          "answer": "Nuestros <insightsLink>diagnósticos con IA</insightsLink> filtran las falsas alarmas y enfocan tu atención en lo que realmente importa. Obtienes detección de fallas específicas por máquina (como desgaste de rodamientos o cavitación), junto con datos de respaldo como tendencias de vibración, análisis espectral y condiciones de lubricación. Cada alerta se vincula a una línea de tiempo del activo, para que puedas seguir cómo evolucionó el problema y qué lo resolvió."
         },
         "reduceReactiveMaintenance": {
           "question": "¿Tractian puede ayudarnos a reducir el mantenimiento reactivo?",
-          "answerHtml": "Sí. Con <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/es/soluciones/monitoreo-condicion/smart-trac\">monitoreo de condición en tiempo real</a> y un <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/es/cmms/tracos\">CMMS</a> en una sola plataforma, Tractian te ayuda a pasar de reactivo a proactivo. Las alertas generan órdenes de trabajo automáticamente, asegurando que los problemas se atiendan rápido y queden documentados. Con el tiempo, esta visibilidad te permite optimizar frecuencias, ajustar rutas de PM y medir el impacto real de tus estrategias."
+          "answer": "Sí. Con <smartTracLink>monitoreo de condición en tiempo real</smartTracLink> y un <cmmsLink>CMMS</cmmsLink> en una sola plataforma, Tractian te ayuda a pasar de reactivo a proactivo. Las alertas generan órdenes de trabajo automáticamente, asegurando que los problemas se atiendan rápido y queden documentados. Con el tiempo, esta visibilidad te permite optimizar frecuencias, ajustar rutas de PM y medir el impacto real de tus estrategias."
         },
         "preventiveMaintenance": {
           "question": "¿Cómo ayuda Tractian con el mantenimiento preventivo?",
-          "answerHtml": "Tractian te permite actuar con base en la condición real del equipo, en lugar de seguir PMs basados en el calendario. Esto significa menos paradas innecesarias, programación más inteligente y mayor tiempo de actividad."
+          "answer": "Tractian te permite actuar con base en la condición real del equipo, en lugar de seguir PMs basados en el calendario. Esto significa menos paradas innecesarias, programación más inteligente y mayor tiempo de actividad."
         },
         "onlyForLargeOperations": {
           "question": "¿Tractian es solo para operaciones industriales grandes?",
-          "answerHtml": "Para nada. Tractian lo utilizan tanto fabricantes a gran escala como equipos pequeños con recursos limitados. Si el tiempo muerto es un problema, Tractian es una solución, sin importar el tamaño."
+          "answer": "Para nada. Tractian lo utilizan tanto fabricantes a gran escala como equipos pequeños con recursos limitados. Si el tiempo muerto es un problema, Tractian es una solución, sin importar el tamaño."
         },
         "trainingAndTurnover": {
           "question": "¿Cómo ayuda Tractian con la capacitación de técnicos y la rotación de personal?",
-          "answerHtml": "Contratar técnicos calificados es difícil y retenerlos, aún más. Tractian reduce la necesidad de reentrenamiento constante al recomendar acciones correctivas, generar SOPs automáticamente y ofrecer instrucciones paso a paso según la falla. Así, incluso los técnicos nuevos saben qué hacer y a dónde ir, sin depender del conocimiento informal ni de seguir a un técnico más experimentado. Es como darle superpoderes a cada técnico, sin importar su nivel de experiencia."
+          "answer": "Contratar técnicos calificados es difícil y retenerlos, aún más. Tractian reduce la necesidad de reentrenamiento constante al recomendar acciones correctivas, generar SOPs automáticamente y ofrecer instrucciones paso a paso según la falla. Así, incluso los técnicos nuevos saben qué hacer y a dónde ir, sin depender del conocimiento informal ni de seguir a un técnico más experimentado. Es como darle superpoderes a cada técnico, sin importar su nivel de experiencia."
         }
       }
     }

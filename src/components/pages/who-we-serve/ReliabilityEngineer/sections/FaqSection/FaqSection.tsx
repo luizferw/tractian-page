@@ -7,44 +7,44 @@ export default function FaqSection() {
   const items: FaqItem[] = [
     {
       id: "howDoesTractianHelp",
-      question: t("items.howDoesTractianHelp.question"),
-      answerHtml: t.raw("items.howDoesTractianHelp.answerHtml") as string,
+      question: "items.howDoesTractianHelp.question",
+      answerKey: "items.howDoesTractianHelp.answer",
       defaultOpen: true,
     },
     {
       id: "supportExistingProgram",
-      question: t("items.supportExistingProgram.question"),
-      answerHtml: t.raw("items.supportExistingProgram.answerHtml") as string,
+      question: "items.supportExistingProgram.question",
+      answerKey: "items.supportExistingProgram.answer",
     },
     {
       id: "supportsBeyondReliability",
-      question: t("items.supportsBeyondReliability.question"),
-      answerHtml: t.raw("items.supportsBeyondReliability.answerHtml") as string,
+      question: "items.supportsBeyondReliability.question",
+      answerKey: "items.supportsBeyondReliability.answer",
     },
     {
       id: "failureConfirmationRca",
-      question: t("items.failureConfirmationRca.question"),
-      answerHtml: t.raw("items.failureConfirmationRca.answerHtml") as string,
+      question: "items.failureConfirmationRca.question",
+      answerKey: "items.failureConfirmationRca.answer",
     },
     {
       id: "reduceReactiveMaintenance",
-      question: t("items.reduceReactiveMaintenance.question"),
-      answerHtml: t.raw("items.reduceReactiveMaintenance.answerHtml") as string,
+      question: "items.reduceReactiveMaintenance.question",
+      answerKey: "items.reduceReactiveMaintenance.answer",
     },
     {
       id: "preventiveMaintenance",
-      question: t("items.preventiveMaintenance.question"),
-      answerHtml: t.raw("items.preventiveMaintenance.answerHtml") as string,
+      question: "items.preventiveMaintenance.question",
+      answerKey: "items.preventiveMaintenance.answer",
     },
     {
       id: "onlyForLargeOperations",
-      question: t("items.onlyForLargeOperations.question"),
-      answerHtml: t.raw("items.onlyForLargeOperations.answerHtml") as string,
+      question: "items.onlyForLargeOperations.question",
+      answerKey: "items.onlyForLargeOperations.answer",
     },
     {
       id: "trainingAndTurnover",
-      question: t("items.trainingAndTurnover.question"),
-      answerHtml: t.raw("items.trainingAndTurnover.answerHtml") as string,
+      question: "items.trainingAndTurnover.question",
+      answerKey: "items.trainingAndTurnover.answer",
     },
   ];
 

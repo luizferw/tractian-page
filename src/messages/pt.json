@@ -201,35 +201,35 @@
       "items": {
         "howDoesTractianHelp": {
           "question": "Como a Tractian ajuda Gerentes de Manutenção?",
-          "answerHtml": "A Tractian oferece dados em tempo real, alarmes acionáveis e histórico contextualizado. Assim, você não só reage mais rápido, como melhora continuamente. De alertas precisos, Procedimentos Operacionais Padrão (POPs) automáticos, ciclos de vida de falhas, planos preventivos e indicadores de backlog, a plataforma mostra onde estão os gargalos, como corrigi-los e o quanto isso impacta nos resultados da operação."
+          "answer": "A Tractian oferece dados em tempo real, alarmes acionáveis e histórico contextualizado. Assim, você não só reage mais rápido, como melhora continuamente. De alertas precisos, Procedimentos Operacionais Padrão (POPs) automáticos, ciclos de vida de falhas, planos preventivos e indicadores de backlog, a plataforma mostra onde estão os gargalos, como corrigi-los e o quanto isso impacta nos resultados da operação."
         },
         "supportExistingProgram": {
           "question": "A Tractian consegue se adaptar ao nosso programa de confiabilidade atual?",
-          "answerHtml": "Totalmente. Seja para estruturar uma estratégia de FMEA ou evoluir seu processo de RCA, a plataforma se encaixa na rotina já existente. Ela entrega visões por criticidade, histórico de falhas e resultados por intervenção - agregando valor à metodologia implementada."
+          "answer": "Totalmente. Seja para estruturar uma estratégia de FMEA ou evoluir seu processo de RCA, a plataforma se encaixa na rotina já existente. Ela entrega visões por criticidade, histórico de falhas e resultados por intervenção - agregando valor à metodologia implementada."
         },
         "supportsBeyondReliability": {
           "question": "A Tractian se integra aos sistemas e sensores que já usamos?",
-          "answerHtml": "Sim. A plataforma conecta-se a ERPs (como SAP/PM, Protheus, Sankhya, entre outros), e sensores legados. Assim, você unifica dados de diferentes fontes em um único painel, sem retrabalho manual nem troca de infraestrutura. Nada é perdido - só centralizado."
+          "answer": "Sim. A plataforma conecta-se a ERPs (como SAP/PM, Protheus, Sankhya, entre outros), e sensores legados. Assim, você unifica dados de diferentes fontes em um único painel, sem retrabalho manual nem troca de infraestrutura. Nada é perdido - só centralizado."
         },
         "failureConfirmationRca": {
           "question": "Como a Tractian ajuda na confirmação de falhas e análise de causa raiz?",
-          "answerHtml": "Os <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/solucoes/monitoramento-condicao/insights-e-diagnostico\">diagnósticos com IA</a> eliminam alarmes falsos e focam sua atenção no que realmente importa. A plataforma identifica falhas específicas - como desgaste de rolamento ou cavitação - e apresenta tendências de vibração, análise espectral e condições de lubrificação. Cada alerta está conectado a uma linha do tempo do ativo, permitindo rastrear a origem da falha, como ela evoluiu e qual ação resolveu o problema."
+          "answer": "Os <insightsLink>diagnósticos com IA</insightsLink> eliminam alarmes falsos e focam sua atenção no que realmente importa. A plataforma identifica falhas específicas - como desgaste de rolamento ou cavitação - e apresenta tendências de vibração, análise espectral e condições de lubrificação. Cada alerta está conectado a uma linha do tempo do ativo, permitindo rastrear a origem da falha, como ela evoluiu e qual ação resolveu o problema."
         },
         "reduceReactiveMaintenance": {
           "question": "A Tractian ajuda a reduzir a manutenção corretiva?",
-          "answerHtml": "Sim. Com <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/smart-trac\">monitoramento online</a> e <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/cmms/tracos\">CMMS</a> integrados, você sai do modo reativo para uma manutenção proativa: os alertas aparecem antes da falha crítica e já geram ordens de serviço com prioridade, responsável e prazo. Em pouco tempo, você acelera a execução, elimina ruídos e analisa o impacto real das suas estratégias com base em dados."
+          "answer": "Sim. Com <smartTracLink>monitoramento online</smartTracLink> e <cmmsLink>CMMS</cmmsLink> integrados, você sai do modo reativo para uma manutenção proativa: os alertas aparecem antes da falha crítica e já geram ordens de serviço com prioridade, responsável e prazo. Em pouco tempo, você acelera a execução, elimina ruídos e analisa o impacto real das suas estratégias com base em dados."
         },
         "preventiveMaintenance": {
           "question": "Como a Tractian contribui com a manutenção preventiva?",
-          "answerHtml": "Com a Tractian, sua manutenção deixa de ser baseada em calendário e passa a seguir o comportamento real do ativo. O algoritmo detecta padrões, reprograma ciclos e atualiza planos de forma dinâmica - menos paradas desnecessárias, mais disponibilidade."
+          "answer": "Com a Tractian, sua manutenção deixa de ser baseada em calendário e passa a seguir o comportamento real do ativo. O algoritmo detecta padrões, reprograma ciclos e atualiza planos de forma dinâmica - menos paradas desnecessárias, mais disponibilidade."
         },
         "onlyForLargeOperations": {
           "question": "A Tractian é adequada apenas para grandes operações industriais?",
-          "answerHtml": "Não. A Tractian é usada tanto por operações de grande porte, quanto por equipes enxutas com orçamento restrito. Se downtime é um problema, o tamanho da planta não importa: a plataforma escala conforme sua realidade."
+          "answer": "Não. A Tractian é usada tanto por operações de grande porte, quanto por equipes enxutas com orçamento restrito. Se downtime é um problema, o tamanho da planta não importa: a plataforma escala conforme sua realidade."
         },
         "trainingAndTurnover": {
           "question": "Como a Tractian ajuda no treinamento e na rotatividade do time?",
-          "answerHtml": "Checklists inteligentes, SOPs automáticos e orientações passo a passo reduzem a dependência de conhecimento tácito dos funcionários mais experientes. Mesmo técnicos recém-chegados sabem o que fazer e onde agir - sem precisar seguir a sombra de alguém. A curva de aprendizado cai, a autonomia sobe."
+          "answer": "Checklists inteligentes, SOPs automáticos e orientações passo a passo reduzem a dependência de conhecimento tácito dos funcionários mais experientes. Mesmo técnicos recém-chegados sabem o que fazer e onde agir - sem precisar seguir a sombra de alguém. A curva de aprendizado cai, a autonomia sobe."
         }
       }
     }
