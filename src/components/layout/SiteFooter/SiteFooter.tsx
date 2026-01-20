@@ -28,7 +28,7 @@ export default function SiteFooter() {
         </a>
         <section className="mb-8 flex w-full flex-col gap-x-16 gap-y-8 lg:mb-12 lg:flex-row lg:items-center lg:justify-between">
           <div className="flex w-full flex-wrap items-center justify-evenly gap-4 lg:w-auto lg:justify-start lg:gap-x-6 xl:flex-nowrap">
-            {config.partnerBadges.map(badge => badge)}
+            {config.partnerBadges.map((badge) => badge)}
           </div>
           <a
             className="mb-4 hidden items-center gap-x-2 self-end text-slate-50 transition hover:text-blue-300 lg:flex "
@@ -78,7 +78,7 @@ export default function SiteFooter() {
         <div className="flex w-full flex-col-reverse justify-between lg:flex-row">
           <div className="mt-8 flex flex-col items-center gap-y-4 lg:mt-0 lg:items-start">
             <Logo className="w-28 fill-white lg:w-40" />
-            <p className="whitespace-pre-line uppercase text-slate-50 transition ease-in-out text-body-sm hover:brightness-125 lg:text-body-sm">
+            <p className="whitespace-pre-line uppercase lg:!text-[14px] lg:!leading-[22px] text-slate-50 leading-[20px] transition ease-in-out text-[12px] md:text-body-sm hover:brightness-125 lg:text-body-sm">
               {t("copyright")}
             </p>
             <div className="flex flex-col-reverse gap-y-12">
@@ -109,7 +109,7 @@ export default function SiteFooter() {
             </a>
             <Button
               variant="ghost"
-              className="hover:bg-transparent !p-0 justify-end group flex items-center gap-x-2"
+              className="hover:bg-transparent !p-0 lg:justify-end group flex items-center gap-x-2"
               id="ot-sdk-btn"
             >
               <PrivacyChoicesIcon className="flex w-6" />
