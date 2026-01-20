@@ -1,7 +1,238 @@
 {
   "ReliabilityEngineer": {
     "title": "Tractian para Ingenieros de Confiabilidad",
-    "description": "Detecta fallas antes de que escalen, analiza causas raíz y mejora la salud de activos con datos reales."
+    "description": "Detecta fallas antes de que escalen, analiza causas raíz y mejora la salud de activos con datos reales.",
+    "heroSection": {
+      "ariaLabel": "Encabezado de Ingenieros de Confiabilidad",
+      "eyebrow": "LIDERA CON DATOS CLAROS Y TOMA DECISIONES ACERTADAS",
+      "title": "Para el Ingeniero de <br></br> Confiabilidad que busca <br></br> claridad",
+      "description": "Apóyate en Tractian para identificar riesgos antes de que escalen, <br></br> actuar con confianza y tomar decisiones que mejoran la operación <br></br> desde el primer día.",
+      "ctaLabel": "Agenda una demo",
+      "quote": {
+        "text": "Me di cuenta de que necesitábamos hacer algo diferente, este es el momento de incorporar tecnología. Los roles de confiabilidad están evolucionando: nos estamos convirtiendo en científicos de datos, no solo en quienes usan llaves y pinzas.",
+        "authorName": "Rafael P.",
+        "authorTitle": "Director de Confiabilidad y Mantenimiento",
+        "authorCompany": "Ingredion, IL"
+      },
+      "imageAlt": "Header Image"
+    },
+    "StrategyTabsSection": {
+      "eyebrow": "TRACTIAN PARA EQUIPOS DE CONFIABILIDAD",
+      "title": "Respaldo para tus decisiones estratégicas",
+      "aria": {
+        "selectTab": "Select Tab"
+      },
+      "tabs": {
+        "confirmFailure": {
+          "title": "Confirma la falla, identifica la causa raíz",
+          "body": {
+            "p1": "Las falsas alarmas erosionan la confianza. Omitir fallas pone todo en riesgo. Tractian te ayuda a confirmar qué es real y qué no lo es.",
+            "p2": "Nuestro análisis de causa raíz impulsado por IA interpreta tendencias de vibración, condiciones del aceite y otros patrones de la máquina para mostrar solo los problemas que realmente importan. No solo recibes alertas, recibes evidencia respaldada por datos en los que puedes confiar."
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/confirm-the-failure.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Confirma la falla, identifica la causa raíz"
+          }
+        },
+        "proveStrategy": {
+          "title": "Demuestra que tu estrategia está funcionando",
+          "body": {
+            "p1": "Eres responsable del tiempo de actividad, pero también de demostrar cómo lo estás logrando. Tractian convierte tus planes de mantenimiento preventivo en resultados medibles, mostrando qué intervenciones evitaron paros, dónde se evitaron costos y cómo tus acciones impactan en el desempeño. Es visibilidad que respalda tus decisiones."
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/confirm-the-failure.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Confirma la falla, identifica la causa raíz"
+          }
+        },
+        "focusTime": {
+          "title": "Enfoca tu tiempo donde realmente importa",
+          "body": {
+            "p1": "No puedes darte el lujo de tratar cada alerta como una emergencia. Tractian actúa como un reflector en tu planta, destacando las máquinas que realmente necesitan atención y filtrando el ruido.",
+            "p2": "Con una priorización basada en criticidad y comportamiento del activo, tu equipo pasa menos tiempo persiguiendo alertas, enfocándose en prevenir la próxima falla."
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/confirm-the-failure.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Confirma la falla, identifica la causa raíz"
+          }
+        },
+        "deepenExpertise": {
+          "title": "Get insights that deepen with your expertise",
+          "body": {
+            "p1": "No reemplazamos el criterio técnico, lo potenciamos. Tractian se convierte en una extensión de tu flujo de trabajo: reportes intuitivos, cronologías detalladas de fallas y checklists inteligentes te ayudan a escalar tus decisiones, poner al día a otros y mejorar continuamente."
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/confirm-the-failure.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Confirma la falla, identifica la causa raíz"
+          }
+        }
+      }
+    },
+    "WorkflowTabsSection": {
+      "title": "Hecho para integrarse con la forma en que ya trabajas",
+      "aria": {
+        "selectTab": "Select Tab"
+      },
+      "tabs": {
+        "failureLifecycleTracking": {
+          "label": "Seguimiento del ciclo de falla",
+          "title": "Obtén una visión completa con una línea de tiempo que conecta cada alerta, diagnóstico y acción.",
+          "bullets": {
+            "b1": "Conecta los puntos desde la falla hasta la solución: agrupa alarmas, vincúlalas a órdenes de trabajo y mantén todo en un solo lugar.",
+            "b2": "Visualiza diagnósticos y resultados de inspecciones juntos para fortalecer el análisis de causa raíz.",
+            "b3": "Haz que los datos de fallas sean operativos, no enterrados en hojas de cálculo, sino integrados en tu flujo de trabajo.",
+            "b4": "Sigue qué funcionó, qué no, y valida tu programa de confiabilidad con datos de impacto."
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/failure-lifecycle.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Obtén una visión completa con una línea de tiempo que conecta cada alerta, diagnóstico y acción."
+          }
+        },
+        "singlePaneOfGlass": {
+          "label": "Panel de Confiabilidad",
+          "title": "Un solo lugar para ver, gestionar y actuar con una visión completa de la salud de los activos.",
+          "bullets": {
+            "b1": "Monitorea todas las tecnologías predictivas en una sola vista: desde vibración y lubricación hasta análisis de aceite, termografía, acústica y más.",
+            "b2": "Ajusta umbrales de alerta, intervalos de muestreo y lógica de monitoreo para que se adapten a tu estrategia, y no al revés.",
+            "b3": "Usa AI 360 para consolidar insights de fallas, estandarizar diagnósticos y resaltar lo urgente.",
+            "b4": ""
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/single-pane-of-glass.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Un solo lugar para ver, gestionar y actuar con una visión completa de la salud de los activos."
+          }
+        },
+        "plantWideVisibility": {
+          "label": "Visibilidad general de tu planta",
+          "title": "Visibilidad total — en toda la planta o a nivel nacional — sin cambiar de pestaña ni perseguir actualizaciones.",
+          "bullets": {
+            "b1": "Navega tu fábrica con planos (floorplans) en vivo que muestran salud del activo, ubicación y estado de un vistazo.",
+            "b2": "Monitoreo escalable multi-sitio en una sola plataforma. Estandariza programas de confiabilidad entre ubicaciones.",
+            "b3": "Detecta riesgos a nivel planta más rápido con criticidad del activo y contexto de rendimiento integrados.",
+            "b4": "Automatiza la ingesta de datos y la sincronización con el CMMS. Genera órdenes al instante, reduce carga manual y elimina brechas."
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/plant-wide-visibility.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Visibilidad total — en toda la planta o a nivel nacional — sin cambiar de pestaña ni perseguir actualizaciones."
+          }
+        },
+        "smartPreventivePlanning": {
+          "label": "Planificación preventiva inteligente",
+          "title": "Deja atrás las hojas de cálculo estáticas: convierte el comportamiento real de la máquina en planes de mantenimiento confiables.",
+          "bullets": {
+            "b1": "Crea planes preventivos con ciclos personalizables basados en tiempo, uso o condición real del activo.",
+            "b2": "Prioriza automáticamente lo más crítico: sin suposiciones ni hojas de cálculo desactualizadas.",
+            "b3": "Ajusta los planes en cualquier momento según patrones, señales de sensores o insights de fallas impulsados por IA.",
+            "b4": ""
+          },
+          "image": {
+            "src": "https://imgix.tractian.com/website/pages/who-we-serve/reliability-engineers/en/smart-preventive-planning.png?auto=format,compress&cs=origin&fit=max&q=75&w=3840",
+            "alt": "Deja atrás las hojas de cálculo estáticas: convierte el comportamiento real de la máquina en planes de mantenimiento confiables."
+          }
+        }
+      }
+    },
+    "BuiltByReliabilitySection": {
+      "title": "Diseñado para fortalecer la Confiabilidad",
+      "features": {
+        "onePlatformFullControl": {
+          "title": "Una plataforma, control integral",
+          "description": "Reúne datos de activos, ejecución de mantenimiento y métricas de confiabilidad en un solo lugar, sin necesidad de cambiar entre sistemas u hojas de cálculo."
+        },
+        "designedToFitWorkflow": {
+          "title": "Adaptable a tu flujo de trabajo",
+          "description": "Tractian se ajusta a la forma en que tu equipo ya trabaja, no al revés. Fácil de implementar y aún más fácil de escalar."
+        },
+        "aiJustGotSmarter": {
+          "title": "Potenciado por IA",
+          "description": "Nos obsesiona la causa raíz, no solo las alertas. Con una IA que cierra el ciclo, la confiabilidad por fin recibe la tecnología que merece."
+        }
+      }
+    },
+    "TestimonialsSection": {
+      "title": "Esto es lo que opinan quienes lo usan a diario",
+      "items": {
+        "jacob": {
+          "name": "Jacob H.",
+          "role": "Ingeniero de Confiabilidad",
+          "company": "Ingredion, NC",
+          "image": "/images/testimonials/jacob.png",
+          "quote": "Hubo algunos problemas que, de no ser por Tractian, nunca habríamos notado. Por ejemplo, un problema de lubricación. Podíamos salir, lubricar, volver a verificar en la plataforma de Tractian y ver que el problema se había solucionado. Los resultados que obtuvimos desde el inicio fueron impresionantes."
+        },
+        "gautam": {
+          "name": "Gautam S.",
+          "role": "Ingeniero de Confiabilidad",
+          "company": "",
+          "image": "/images/testimonials/gautam.png",
+          "quote": "Estoy realmente impresionado con las métricas de confiabilidad que Tractian es capaz de calcular en tiempo real y con el nivel de detalle en los modos de falla y la generación de insights. Tractian realmente ha mejorado la disponibilidad de nuestros activos."
+        },
+        "helio": {
+          "name": "Helio B.",
+          "role": "Ingeniero de Confiabilidad",
+          "company": "Ingredion",
+          "image": "/images/testimonials/helio.png",
+          "quote": "Tenemos alrededor de 18,500 activos y solo 3 inspectores para atenderlos. Antes, los técnicos tenían que salir a piso y revisar cada uno manualmente. Te puedes imaginar cuánto tiempo tomaba eso. Ahora, con el monitoreo remoto en tiempo real, podemos supervisarlos a todos desde cualquier lugar."
+        },
+        "rafael": {
+          "name": "Rafael P.",
+          "role": "Director de Confiabilidad y Mantenimiento",
+          "company": "Ingredion, IL",
+          "image": "/images/testimonials/rafael.png",
+          "quote": "Me di cuenta de que necesitábamos hacer algo diferente, este es el momento de incorporar tecnología. Los roles de confiabilidad están evolucionando: nos estamos convirtiendo en científicos de datos, no solo en quienes usan llaves y pinzas."
+        }
+      }
+    },
+    "PeopleBehindMachinesSection": {
+      "backgroundImage": "https://tractian-webpage.s3.us-east-1.amazonaws.com/website/pages/who-we-serve/maintenance-engineer/en/more-than-machines.png",
+      "titleParts": {
+        "p1": "Para las personas detrás",
+        "p2": "de las máquinas."
+      },
+      "descriptionParts": {
+        "p1": "El mantenimiento no se trata solo de máquinas.",
+        "p2": "Se trata de las personas que las mantienen trabajando:",
+        "p3": "las que resuelven problemas, toman decisiones y mantienen el",
+        "p4": "mundo en marcha."
+      },
+      "cta": "Elige Tractian"
+    },
+    "FaqSection": {
+      "eyebrow": "FAQ",
+      "title": "Frequently Asked Questions",
+      "items": {
+        "howDoesTractianHelp": {
+          "question": "How does Tractian help reliability engineers?",
+          "answerHtml": "Tractian equips reliability teams with real-time data, actionable insights, and historical context - so you’re not just reacting, you’re improving. From automated condition monitoring to failure timelines and SOPs, we help you reduce unplanned downtime, confirm issues faster, and fine-tune your reliability program based on hard data, not assumptions."
+        },
+        "supportExistingProgram": {
+          "question": "Can Tractian support our existing reliability program?",
+          "answerHtml": "Yes. Tractian is built to integrate seamlessly into your current reliability framework. Whether you're building out a full FMEA strategy or refining RCA processes, our platform delivers the asset-level insights you need: criticality rankings, diagnostic histories, and intervention outcomes."
+        },
+        "supportsBeyondReliability": {
+          "question": "Does Tractian support roles beyond reliability engineers?",
+          "answerHtml": "Absolutely. Tractian is used by Predictive Analysts, Vibration Technicians, Reliability Managers, Maintenance Engineers, and anyone involved in condition-based or proactive maintenance. If your job includes monitoring asset health, tracking performance, or avoiding costly failures, you’re in the right place."
+        },
+        "failureConfirmationRca": {
+          "question": "How can Tractian help with failure confirmation and root cause analysis?",
+          "answerHtml": "Our AI-powered diagnostics filter out false alarms and focus your attention on what’s real. You get machine-specific fault detection (like bearing wear or cavitation), with supporting data like vibration trends, spectral analysis, and lubrication conditions. Every alert links to an asset timeline, so you can track how issues evolved - and what resolved them."
+        },
+        "reduceReactiveMaintenance": {
+          "question": "Can Tractian help us reduce reactive maintenance?",
+          "answerHtml": "Yes. With real-time condition monitoring and CMMS in one platform, Tractian helps you move from reactive to proactive. Alerts trigger work orders automatically, ensuring issues are addressed fast and documented fully. Over time, this visibility helps you optimize intervals, adjust PM routes, and measure the actual impact of your strategies."
+        },
+        "preventiveMaintenance": {
+          "question": "How does Tractian help with preventive maintenance?",
+          "answerHtml": "Yes. Instead of relying on calendar-based PMs, Tractian lets you act based on actual equipment condition. That means fewer unnecessary stops, smarter scheduling, and more uptime."
+        },
+        "onlyForLargeOperations": {
+          "question": "Is Tractian only for large industrial operations?",
+          "answerHtml": "Not at all. Tractian is used by both large-scale manufacturers and small, resource-constrained teams. If downtime is a problem, Tractian is a fit - no matter your size."
+        },
+        "trainingAndTurnover": {
+          "question": "How does Tractian help with technician training and turnover?",
+          "answerHtml": "Hiring skilled technicians is tough - and keeping them is even tougher. Tractian reduces the burden of constant retraining by recommending corrective actions, auto-generating SOPs, and giving step-by-step guidance tailored to the failure at hand. That way, even newer techs know what to do and where to go - without having to rely on tribal knowledge or shadowing a senior engineer. It’s like giving every technician superpowers, no matter their experience level."
+        }
+      }
+    }
   },
   "SiteNav": {
     "solutions": "Soluciones",
@@ -150,38 +381,38 @@
     "es": "Español (México)"
   },
   "GetDemoDialog": {
-    "title": "Solicita tu Demo",
-    "description": "Completa los campos para hablar con un especialista y entender los beneficios que nuestras soluciones ofrecen para tus operaciones de mantenimiento.",
+    "title": "Solicita tu Demostración",
+    "description": "Completa los campos para hablar con un especialista y entender los beneficios que Tractian ofrece para tus operaciones de mantenimiento.",
     "closeButton": "Cerrar diálogo",
     "form": {
       "name": {
-        "placeholder": "Nombre",
-        "required": "¡Este campo es requerido!",
+        "placeholder": "Nombre completo",
+        "required": "¡Campo obligatorio!",
         "invalid": "Nombre inválido. ¡Revisa los caracteres especiales!",
         "incomplete": "Nombre inválido. ¡Verifica que esté completo!"
       },
       "email": {
-        "placeholder": "Correo de Trabajo",
-        "required": "¡Este campo es requerido!",
-        "invalid": "Correo inválido. ¡Revisa los caracteres especiales!"
+        "placeholder": "E-mail profesional",
+        "required": "¡Campo obligatorio!",
+        "invalid": "¡Correo electrónico inválido. Compruebe el uso de caracteres especiales!"
       },
       "phone": {
         "placeholder": "Teléfono",
-        "required": "Número de teléfono inválido, verifica que esté completo."
+        "required": "¡Escriba el número de tu teléfono móvil correctamente!"
       },
       "jobTitle": {
-        "placeholder": "Puesto de Trabajo",
-        "required": "¡Este campo es requerido!"
+        "placeholder": "Cargo",
+        "required": "¡Campo obligatorio!"
       },
       "industrySector": {
-        "placeholder": "Sector Industrial",
-        "required": "¡Este campo es requerido!"
+        "placeholder": "Sector",
+        "required": "¡Campo obligatorio!"
       },
       "solution": {
-        "placeholder": "Selecciona la solución de mayor interés",
-        "required": "¡Este campo es requerido!"
+        "placeholder": "Seleccione la solución de mayor interés",
+        "required": "¡Campo obligatorio!"
       },
-      "submitButton": "Solicitar demo"
+      "submitButton": "Solicitar demostración"
     }
   }
 }
