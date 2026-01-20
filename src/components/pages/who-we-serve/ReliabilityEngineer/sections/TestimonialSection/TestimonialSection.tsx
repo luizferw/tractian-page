@@ -5,18 +5,16 @@ import TestimonialsMobileCarousel from "./TestimonialsMobileCarousel";
 
 const TESTIMONIALS_BY_LOCALE = {
   en: ["jacob", "gautam", "helio", "rafael"],
-  pt: ["helio", "rafael", "jacob"],
-  es: ["gautam", "helio"],
+  es: ["rafael", "jacob", "gautam", "helio"],
+  pt: ["renato", "marcio", "bruno", "vinicius"],
 } as const;
-
-export type TestimonialKey = (typeof TESTIMONIALS_BY_LOCALE)["en"][number];
 
 export default function TestimonialsSection() {
   const t = useTranslations("ReliabilityEngineer.TestimonialsSection");
   const locale = useLocale() as Locale;
 
   const testimonials = TESTIMONIALS_BY_LOCALE[locale];
-  const g2Badges: readonly TestimonialKey[] = ["gautam"];
+  const g2Badges = ["gautam"];
 
   const cards = testimonials.map((key) => (
     <TestimonialCard
@@ -38,7 +36,6 @@ export default function TestimonialsSection() {
           {t("title")}
         </h2>
 
-        {/* Desktop/tablet: igual ao seu HTML (hidden -> sm:grid -> lg:flex) */}
         <div className="hidden h-auto w-full items-stretch gap-8 sm:grid sm:grid-cols-2 lg:flex lg:flex-row lg:justify-between lg:gap-12">
           {testimonials.map((key) => (
             <TestimonialCard
