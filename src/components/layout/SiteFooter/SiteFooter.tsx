@@ -66,7 +66,7 @@ export default function SiteFooter() {
             return (
               <FooterSection
                 key={section.id}
-                isSupport={(locale === localeNames.pt || locale === localeNames.en) && section.id === "support"}
+                isSupport={locale === localeNames.pt && section.id === "support"}
                 title={t(section.titleMessageKey)}
                 links={section.links.map((link) => ({
                   href: link.href,
