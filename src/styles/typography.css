@@ -1,4 +1,4 @@
-@layer components {
+@layer utilities {
   .text-display-lg {
     font-family: var(--font-tight);
     font-size: var(--fs-display-lg);
@@ -139,4 +139,11 @@
       line-height: var(--lh-body-md-desktop);
     }
   }
+}
+
+
+@utility text-body-lg {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
 }
