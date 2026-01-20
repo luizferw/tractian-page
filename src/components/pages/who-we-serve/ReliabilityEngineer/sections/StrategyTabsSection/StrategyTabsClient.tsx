@@ -2,6 +2,7 @@
 
 import { ReactNode, useEffect, useId, useMemo, useRef, useState } from "react";
 import clsx from "clsx";
+import CheckIcon from "@/components/icons/CheckIcon";
 
 export type StrategyTabItem = {
   id: string;
@@ -15,27 +16,6 @@ type Props = {
   tabs: StrategyTabItem[];
   initialActiveId: string;
 };
-
-function CheckIcon() {
-  return (
-    <svg
-      fill="none"
-      height="14"
-      viewBox="0 0 25 25"
-      width="18"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path
-        d="M2.02344 11.5L10.0234 19.5M2.02344 11.5L10.0234 19.5"
-        stroke="#fff"
-        strokeWidth="1.8"
-      />
-      <path d="M9.02344 19.5L23.0234 5.5" stroke="#fff" strokeWidth="1.8" />
-    </svg>
-  );
-}
 
 export default function StrategyTabsClient({
   ariaLabel,

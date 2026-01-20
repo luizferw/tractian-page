@@ -2,6 +2,7 @@
 
 import clsx from "clsx";
 import { useMemo, useState } from "react";
+import ReliabilityFaqChevronIcon from "@/components/icons/ReliabilityFaqChevronIcon";
 
 export type FaqItem = {
   id: string;
@@ -9,31 +10,6 @@ export type FaqItem = {
   answerHtml: string; // contém <a> em alguns idiomas
   defaultOpen?: boolean;
 };
-
-function Chevron({ open, active }: { open: boolean; active: boolean }) {
-  return (
-    <svg
-      className={clsx(
-        "transition-transform duration-150 ease-out",
-        open ? "-rotate-90" : "rotate-90",
-      )}
-      fill="none"
-      height="14"
-      viewBox="0 0 9 14"
-      width="9"
-      xmlns="http://www.w3.org/2000/svg"
-      aria-hidden="true"
-      focusable="false"
-    >
-      <path
-        d="M1 1.35364L7 7.35364L1 13.3536"
-        stroke={active ? "#2563eb" : "#94A3B8"}
-        strokeMiterlimit="10"
-        strokeWidth="1.5"
-      />
-    </svg>
-  );
-}
 
 export default function FaqAccordionClient({ items }: { items: FaqItem[] }) {
   const initialOpenIds = useMemo(() => {
@@ -85,7 +61,7 @@ export default function FaqAccordionClient({ items }: { items: FaqItem[] }) {
               </h3>
 
               <figure>
-                <Chevron open={open} active={active} />
+                <ReliabilityFaqChevronIcon open={open} active={active} />
               </figure>
             </button>
 
