@@ -1,10 +1,9 @@
-import { useLocale, useTranslations } from "next-intl";
+import { useTranslations } from "next-intl";
 import WorkflowTabsClient, { type WorkflowTabItem } from "./WorkflowTabsClient";
 import Image from "next/image";
 
 export default function WorkflowTabsSection() {
   const t = useTranslations("ReliabilityEngineer.WorkflowTabsSection");
-  const locale = useLocale()
 
   const tabs: WorkflowTabItem[] = [
     {

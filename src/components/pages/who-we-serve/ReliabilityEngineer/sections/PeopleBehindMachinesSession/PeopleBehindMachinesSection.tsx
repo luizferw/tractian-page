@@ -34,13 +34,6 @@ export default function PeopleBehindMachinesSection() {
           </article>
 
           <CTAButton className='!text-[14px] !leading-[22px] lg:!leading-[24px] lg:!text-[16px]' label={t("cta")} showArrow={false} />
-          {/* <button
-            type="button"
-            className="relative z-30 mx-auto w-full max-w-fit rounded-sm bg-blue-600 px-4 py-2 text-center font-medium text-body-md text-white transition duration-150 ease-in-out hover:bg-blue-900 active:bg-blue-950 disabled:cursor-not-allowed disabled:bg-slate-300 md:mx-0"
-          >
-            CTAButton
-            
-          </button> */}
         </div>
       </div>
     </section>
