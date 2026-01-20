@@ -1,8 +1,12 @@
 "use client";
 
 import type { ReactNode } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import {
+  Navigation,
+  Pagination,
+  Swiper,
+  SwiperSlide,
+} from "@/components/ui/Swiper/Swiper";
 
 export default function TestimonialsMobileCarousel({
   children,
