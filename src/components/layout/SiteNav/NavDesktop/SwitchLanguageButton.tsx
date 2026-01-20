@@ -21,7 +21,6 @@ export default function SwitchLanguageButton({
 
   const containerRef = useRef<HTMLDivElement>(null);
 
-  // ✅ fecha ao clicar fora
   useEffect(() => {
     if (!isOpen) return;
 

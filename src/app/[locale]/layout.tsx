@@ -26,7 +26,7 @@ export default async function LocaleLayout({
 
   return (
     <>
-      <NextIntlClientProvider locale={locale} messages={messages}>
+      <NextIntlClientProvider key={locale} locale={locale} messages={messages}>
         <GetDemoDialogProvider>{children}</GetDemoDialogProvider>
       </NextIntlClientProvider>
       <div id="headlessui-portal-root" />

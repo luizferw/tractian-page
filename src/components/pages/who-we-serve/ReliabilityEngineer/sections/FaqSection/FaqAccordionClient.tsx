@@ -16,7 +16,6 @@ export default function FaqAccordionClient({ items }: { items: FaqItem[] }) {
   const t = useTranslations("ReliabilityEngineer.FaqSection");
   const initialOpenIds = useMemo(() => {
     const defaults = items.filter((i) => i.defaultOpen).map((i) => i.id);
-    // se nada marcado, deixa o primeiro aberto (opcional)
     return defaults.length ? defaults : items[0]?.id ? [items[0].id] : [];
   }, [items]);
 
