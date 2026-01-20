@@ -54,7 +54,8 @@ export default function HeroSection() {
       <figure className="flex h-[340px] w-full sm:h-[290px] md:hidden md:h-[310px]">
         <Image
           alt={t("imageAlt")}
-          loading="lazy"
+          loading="eager"
+          fetchPriority="high"
           width="2560"
           height="1980"
           decoding="async"
@@ -65,8 +66,9 @@ export default function HeroSection() {
 
         <Image
           alt={t("imageAlt")}
-          loading="lazy"
+          loading="eager"
           width="1280"
+          fetchPriority="high"
           height="1080"
           decoding="async"
           className="flex h-full w-full object-cover object-center sm:hidden"
