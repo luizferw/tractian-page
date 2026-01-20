@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Tractian Page
 
-## Getting Started
+Localized landing page for the **“Who We Serve / Reliability Engineer”** segment of Tractian, built with **Next.js App Router** and content in **PT/EN/ES**.
 
-First, run the development server:
+**Production URL:**
+[https://tractian-page.vercel.app/en/who-we-serve/reliability-engineer](https://tractian-page.vercel.app/en/who-we-serve/reliability-engineer)
+
+---
+
+## Stack
+
+* Next.js 16 (App Router) + React 19
+* `next-intl` for i18n
+* Tailwind CSS 4 (PostCSS) + UI utilities (Headless UI, Swiper)
+* Phone formatting with `libphonenumber-js` and `react-international-phone`
+
+---
+
+## Current routes
+
+All routes render the `ReliabilityEngineer` component:
+
+* `/who-we-serve/reliability-engineer` (en)
+* `/who-we-serve/ingeniero-de-confiabilidad` (es)
+* `/solucoes-para-gerentes-de-manutencao` (pt, default locale)
+
+---
+
+## Project structure
+
+* `src/app` — App Router, layouts, and pages per locale
+* `src/components` — landing page sections, navigation, footer, UI, and dialogs
+* `src/i18n` — `next-intl` routing config, request config, and navigation
+* `src/messages` — language messages (`en.json`, `pt.json`, `es.json`)
+* `src/styles` — tokens, typography, and global styles
+* `public` — static assets (images and badges)
+
+---
+
+## How to run
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+pnpm install
 pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Also works with `npm` or `yarn`:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm install
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Open `http://localhost:3000`.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* `pnpm dev` — development server
+* `pnpm build` — production build
+* `pnpm start` — production server
+* `pnpm lint` — ESLint linting
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## i18n
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Supported locales: `en`, `pt`, `es` (default: `pt`)
+* Messages in `src/messages`
+* Routing config in `src/i18n/routing.ts`
+* Provider and locale setup in `src/app/[locale]/layout.tsx`
