@@ -8,6 +8,7 @@ import FooterSection from "./FooterSection";
 import SocialLink from "./SocialLink";
 import { footerConfig, isSectionGroup } from "./footer.config";
 import { Button } from "@/components/ui/Button/Button";
+import { localeNames } from "@/i18n.config";
 
 export default function SiteFooter() {
   const t = useTranslations("SiteFooter");
@@ -65,6 +66,7 @@ export default function SiteFooter() {
             return (
               <FooterSection
                 key={section.id}
+                isSupport={(locale === localeNames.pt || locale === localeNames.en) && section.id === "support"}
                 title={t(section.titleMessageKey)}
                 links={section.links.map((link) => ({
                   href: link.href,
