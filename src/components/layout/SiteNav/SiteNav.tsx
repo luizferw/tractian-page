@@ -1,7 +1,7 @@
 import { Locale, localeNames } from "@/i18n.config";
-import { NextIntlClientProvider } from "next-intl";
+import { useTranslations } from "next-intl";
 import NavMobile from "./NavMobile/NavMobile";
-import { filterNavByLocale, navItems } from "./nav.config";
+import { filterNavByLocale, getNavItems } from "./nav.config";
 import NavDesktop from "./NavDesktop/NavDesktop";
 
 export type SiteNavProps = {
@@ -13,7 +13,8 @@ export type SiteNavProps = {
 };
 
 export default function SiteNav({ locale, availableLocales }: SiteNavProps) {
-  const filteredNavItems = filterNavByLocale(navItems, locale);
+  const t = useTranslations("SiteNav");
+  const filteredNavItems = filterNavByLocale(getNavItems(t), locale);
   const homepageHref = locale === localeNames.pt ? "/" : `/${locale}`;
 
   return (

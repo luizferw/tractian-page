@@ -61,7 +61,7 @@ export type NavItem = {
 
 const L = localeNames;
 
-export const navItems: NavItem[] = [
+export const getNavItems = (t: (val: string) => string) => [
   {
     id: "solutions",
     labelMessageKey: "solutions",
@@ -680,7 +680,7 @@ export const navItems: NavItem[] = [
             labelMessageKey: "aboutUs",
             icon: (
               <Image
-                alt="About Us"
+                alt={t("aboutUs")}
                 src="/navbar/about.png"
                 width={160}
                 height={90}
@@ -700,7 +700,7 @@ export const navItems: NavItem[] = [
             labelMessageKey: "careers",
             icon: (
               <Image
-                alt="Careers"
+                alt={t("careers")}
                 width={160}
                 height={90}
                 sizes="(min-width: 1024px) 186px, 110px"
@@ -720,7 +720,7 @@ export const navItems: NavItem[] = [
             labelMessageKey: "newsroom",
             icon: (
               <Image
-                alt="Newsroom"
+                alt={t("newsroom")}
                 width={160}
                 height={90}
                 sizes="(min-width: 1024px) 186px, 110px"
