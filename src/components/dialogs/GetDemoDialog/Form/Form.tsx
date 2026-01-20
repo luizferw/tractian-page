@@ -9,14 +9,14 @@ import MostInterestedSolutionListbox from "./MostInterestedSolutionListbox";
 import PhoneField from "./PhoneField";
 import { isPhoneValid } from "@/lib/phone";
 import { cn } from "@/lib/cn";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 
 export type Option = { id: string; label: string };
 
 const baseInputClassName =
   "rounded-[2px] p-3 text-body-md ring-0 w-full placeholder:text-slate-500 text-slate-700 bg-white outline outline-1 outline-slate-400 hover:outline-slate-700 focus:outline-2 focus:outline-blue-600 disabled:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-70";
 
-function validateName(name: string, t: any): string | null {
+function validateName(name: string, t: (key: string) => string): string | null {
   const value = name.trim();
 
   if (!/^[A-Za-z\s]+$/.test(value)) {
@@ -40,7 +40,10 @@ function validateName(name: string, t: any): string | null {
 
 const EMAIL_REGEX =
   /^[A-Za-z0-9._%+-]+@(?:[A-Za-z0-9-]+\.)*([A-Za-z0-9-]{3,})\.([A-Za-z]{2,})$/;
-function validateEmail(email: string, t: any): string | null {
+function validateEmail(
+  email: string,
+  t: (key: string) => string,
+): string | null {
   const value = email.trim();
 
   if (!EMAIL_REGEX.test(value)) {
@@ -55,6 +58,7 @@ function getSafeString(v: FormDataEntryValue | null) {
 }
 
 export default function Form() {
+  const locale = useLocale();
   const formId = useId();
   const t = useTranslations("GetDemoDialog");
 
@@ -463,7 +467,7 @@ export default function Form() {
           {t("form.submitButton")}
         </Button>
 
-        <div />
+        {locale === "en" && <div />}
       </div>
     </form>
   );
