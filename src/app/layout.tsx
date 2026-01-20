@@ -1,11 +1,5 @@
-import { Inter, Inter_Tight } from "next/font/google";
 import "../styles/globals.css";
-
-const inter = Inter({ variable: "--font-inter", subsets: ["latin"] });
-const interTight = Inter_Tight({
-  variable: "--font-inter-tight",
-  subsets: ["latin"],
-});
+import fontsVariables from "@/styles/fonts";
 
 export default function RootLayout({
   children,
@@ -13,7 +7,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html className={`${inter.variable} ${interTight.variable} antialiased`}>
+    <html className={fontsVariables}>
       <body>{children}</body>
     </html>
   );

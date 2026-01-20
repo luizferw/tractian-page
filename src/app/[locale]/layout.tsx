@@ -3,6 +3,7 @@ import { setRequestLocale } from "next-intl/server";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { GetDemoDialogProvider } from "@/components/providers/GetDemoDialogProvider";
+import fontsVariables from "@/styles/fonts";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -24,7 +25,7 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   return (
-    <html lang={locale}>
+    <html className={fontsVariables} lang={locale}>
       <body>
         <NextIntlClientProvider>
           <GetDemoDialogProvider>{children}</GetDemoDialogProvider>
