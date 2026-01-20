@@ -1,8 +1,9 @@
 "use client";
 
-import { ReactNode, useState } from "react";
+import { useState } from "react";
 import ChevronDownIcon from "@/components/icons/ChevronDownIcon";
 import FooterLink from "./FooterLink";
+import { cn } from "@/lib/cn";
 
 export interface FooterLinkItem {
   href: string;
@@ -13,18 +14,23 @@ export interface FooterLinkItem {
 interface FooterSectionProps {
   title: string;
   links: FooterLinkItem[];
-  extraContent?: ReactNode;
+  isSupport?: boolean;
 }
 
 export default function FooterSection({
   title,
   links,
-  extraContent,
+  isSupport = false,
 }: FooterSectionProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <article className="sm:w-full sm:col-span-1 ">
+    <article
+      className={cn(
+        "sm:w-full sm:col-span-1",
+        isSupport ? "lg:!max-w-[172px]" : "",
+      )}
+    >
       <p className="mb-2 hidden font-semibold uppercase text-slate-50 text-body-md sm:block">
         {title}
       </p>
@@ -53,7 +59,6 @@ export default function FooterSection({
           ))}
         </ul>
       )}
-      {extraContent}
     </article>
   );
 }
