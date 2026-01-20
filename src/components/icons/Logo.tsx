@@ -6,7 +6,6 @@ export default function Logo({
 }: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
-      height={25}
       viewBox="0 0 177 25"
       width={177}
       className={cn("w-32 fill-blue-600", className)}

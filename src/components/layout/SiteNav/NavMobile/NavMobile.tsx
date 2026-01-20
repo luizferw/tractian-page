@@ -22,7 +22,7 @@ export default function NavMobile({
       <div className="flex w-full items-center justify-between">
         <figure className="fill-blue-600">
           <a aria-label="Tractian Logo" href={homepageHref}>
-            <Logo />
+            <Logo height={25} />
           </a>
         </figure>
         <figure className="flex items-center justify-center">

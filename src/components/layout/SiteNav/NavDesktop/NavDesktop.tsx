@@ -26,7 +26,7 @@ export default function NavDesktop({
       <section className="flex items-center gap-x-4">
         <figure className="fill-blue-600">
           <a aria-label="Tractian Logo" href={homepageHref}>
-            <Logo />
+            <Logo height={25} />
           </a>
         </figure>
         <div className="flex h-[72px] items-center">
