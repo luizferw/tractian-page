@@ -1,0 +1,25 @@
+export default function UtilityIcon(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg
+      fill="none"
+      height={20}
+      viewBox="0 0 20 20"
+      width={20}
+      xmlns="http://www.w3.org/2000/svg"
+      {...props}
+    >
+      <path
+        d="M10.1462 3H18L14.4308 8.59849H17.2846L9.43077 17L10.8538 11.4015H8L10.1462 3Z"
+        stroke="#94A3B8"
+        strokeMiterlimit={10}
+        strokeWidth="0.75"
+      />
+      <path
+        d="M2 6.00349L3.99767 8L8 4"
+        stroke="#94A3B8"
+        strokeMiterlimit={10}
+        strokeWidth="0.75"
+      />
+    </svg>
+  );
+}

@@ -1,0 +1,37 @@
+import { routing } from "@/i18n/routing";
+import { setRequestLocale } from "next-intl/server";
+import { hasLocale, NextIntlClientProvider } from "next-intl";
+import { notFound } from "next/navigation";
+import { GetDemoDialogProvider } from "@/components/providers/GetDemoDialogProvider";
+import fontsVariables from "@/styles/fonts";
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
+
+export default async function LocaleLayout({
+  children,
+  params,
+}: {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+
+  if (!hasLocale(routing.locales, locale)) {
+    notFound();
+  }
+
+  setRequestLocale(locale);
+
+  return (
+    <html className={fontsVariables} lang={locale}>
+      <body>
+        <NextIntlClientProvider>
+          <GetDemoDialogProvider>{children}</GetDemoDialogProvider>
+        </NextIntlClientProvider>
+        <div id="headlessui-portal-root" />
+      </body>
+    </html>
+  );
+}

@@ -1,0 +1,425 @@
+{
+  "ReliabilityEngineer": {
+    "title": "Tractian para Gerentes de Manutenção",
+    "description": "Planeje, priorize e acompanhe ordens em tempo real. Com a Tractian, Gerentes de Manutenção têm visibilidade total para tomar decisões rápidas.",
+    "HeroSection": {
+      "ariaLabel": "Header de Engenharia de Confiabilidade",
+      "eyebrow": "DADOS CONFIÁVEIS PARA DECISÕES RÁPIDAS",
+      "title": "Para o Gerente de <br></br> Manutenção que corre <br></br> contra paradas inesperadas",
+      "description": "Planeje, priorize e acompanhe ordens sem perder um minuto. <br></br> A Tractian vira uma extensão do seu fluxo, com backlog atualizado, <br></br> provas do impacto de cada intervenção e visibilidade total da <br></br> produção.",
+      "ctaLabel": "Solicitar Demo",
+      "quote": {
+        "text": "”A grande diferença é que agora, com os sensores, os problemas nos procuram, esse é o grande facilitador. Temos muito mais segurança de que teremos um diagnóstico em tempo hábil para atuar antes da falha funcional dos equipamentos.”",
+        "authorName": "Renato T.",
+        "authorTitle": "Gerente de Manutenção",
+        "authorCompany": "Inpasa"
+      },
+      "imageAlt": "Header Image"
+    },
+    "StrategyTabsSection": {
+      "eyebrow": "POR QUE GERENTES DE MANUTENÇÃO ESCOLHEM A TRACTIAN",
+      "title": "Feita para transformar plano em resultado",
+      "aria": {
+        "selectTab": "Select Tab"
+      },
+      "tabs": {
+        "confirmFailure": {
+          "title": "Confirme falhas reais, elimine a causa raiz",
+          "body": {
+            "p1": "Alarmes falsos esgotam a equipe e abalam a confiança do time. Com a Tractian, você sabe o que é falha de verdade e o que não é.",
+            "p2": "Nossa análise de causa raiz assistida por IA cruza dados de vibração, níveis de óleo e histórico de falhas em segundos, mostrando apenas o que é falha real e sua verdadeira causa. Reaja com base em evidências técnicas - não com achismo."
+          },
+          "image": {
+            "src": "/who-we-serve/pt/elimine-a-causa-raiz.png",
+            "alt": "Confirme falhas reais, elimine a causa raiz"
+          }
+        },
+        "proveStrategy": {
+          "title": "Comprove que sua estratégia funciona",
+          "body": {
+            "p1": "Manter os ativos rodando é metade do trabalho, provar o valor da sua estratégia é a outra. A Tractian transforma seus planos preventivos em resultados concretos. Veja quais intervenções evitaram paradas, onde custos foram poupados e como cada intervenção impacta o desempenho. Visibilidade total para sustentar suas decisões."
+          },
+          "image": {
+            "src": "/who-we-serve/pt/comprove-que-sua-estrategia-funciona.png",
+            "alt": "Comprove que sua estratégia funciona"
+          }
+        },
+        "focusTime": {
+          "title": "Integração sem dor de cabeça",
+          "body": {
+            "p1": "Esqueça os projetos longos ou a maratona com o time de TI. A Tractian puxa os dados de qualquer fonte e centraliza em um painel único, sejam de ERPs, ferramentas de BI, sensores antigos e mesmo planilhas. Em poucos passos você enxerga a fábrica inteira ao vivo, com métricas confiáveis para guiar o dia a dia.",
+            "p2": ""
+          },
+          "image": {
+            "src": "/who-we-serve/pt/integracao-sem-dor-de-cabeca.png",
+            "alt": "Integração sem dor de cabeça"
+          }
+        },
+        "deepenExpertise": {
+          "title": "Time engajado desde o primeiro login",
+          "body": {
+            "p1": "Ferramenta nova não pode atrasar o turno e nem virar dor de cabeça. A Tractian é fácil de usar no computador ou celular e, em poucos cliques, o técnico entende o que precisa ser feito, onde e como fazê-lo - com alertas já classificados por criticidade. Com treinamento dedicado e suporte especialista, nenhuma dúvida fica sem resposta."
+          },
+          "image": {
+            "src": "/who-we-serve/pt/time-engajado.png",
+            "alt": "Time engajado desde o primeiro login"
+          }
+        }
+      }
+    },
+    "WorkflowTabsSection": {
+      "title": "Desenvolvido para fortalecer seu fluxo, do diagnóstico à prevenção",
+      "aria": {
+        "selectTab": "Select Tab"
+      },
+      "tabs": {
+        "failureLifecycleTracking": {
+          "label": "Gestão do Ciclo de Vida das Falhas",
+          "title": "Conecte alertas, ordens de serviço e intervenções em uma única linha do tempo.",
+          "bullets": {
+            "b1": "Agrupe alarmes, vincule‐os à OS e registre a correção sem sair da plataforma.",
+            "b2": "Junte diagnósticos de vibração e o resultado de inspeções para entender a causa raiz.",
+            "b3": "Torne os dados operacionais ao integrá-los ao seu fluxo, sem perdê-los em planilhas.",
+            "b4": "Valide o que funcionou e prove impacto do seu plano de confiabilidade de maneira clara."
+          },
+          "image": {
+            "src": "/who-we-serve/reliability-engineers/pt/gestao-ciclo-de-vida-das-falhas.png",
+            "alt": "Conecte alertas, ordens de serviço e intervenções em uma única linha do tempo."
+          }
+        },
+        "singlePaneOfGlass": {
+          "label": "Visão Única para Confiabilidade",
+          "title": "Todos os dados críticos da saúde dos seus ativos, centralizados.",
+          "bullets": {
+            "b1": "Monitore vibração, lubrificação, termografia e muito mais em uma só visão.",
+            "b2": "Ajuste limites de alertas, intervalos de coletas e a lógica de monitoramento de acordo com o seu método, não o contrário.",
+            "b3": "A IA da Tractian consolida alertas, padroniza diagnósticos e destaca apenas o que é importante.",
+            "b4": "Integre CLPs, ERPs, sistemas e sensores legados sem reprogramar a planta."
+          },
+          "image": {
+            "src": "/who-we-serve/reliability-engineers/pt/visao-unica-para-confiabilidade.png",
+            "alt": "Todos os dados críticos da saúde dos seus ativos, centralizados."
+          }
+        },
+        "plantWideVisibility": {
+          "label": "Supervisório",
+          "title": "Monitore cada ativo da planta - ou de várias unidades - em tempo real.",
+          "bullets": {
+            "b1": "Visualize localização, status e condição de todos os ativos em um Supervisório interativo da sua operação.",
+            "b2": "Escale o monitoramento para múltiplas plantas. Padronize KPIs e práticas de confiabilidade em todas as unidades.",
+            "b3": "Mapeie riscos em toda a fábrica com contexto: criticidade, impacto e tendências.",
+            "b4": "Sincronize com seu CMMS e automatize o fluxo de dados. Gere OSs automaticamente, sem abrir múltiplas telas ou subir cada ordem manualmente."
+          },
+          "image": {
+            "src": "/who-we-serve/reliability-engineers/pt/supervisorio.png",
+            "alt": "Monitore cada ativo da planta - ou de várias unidades - em tempo real."
+          }
+        },
+        "smartPreventivePlanning": {
+          "label": "Planos Preventivos Inteligentes",
+          "title": "Esqueça as planilhas. Reprograme seus planos preventivos de acordo com a condição real do ativo.",
+          "bullets": {
+            "b1": "Crie planos preventivos com ciclos customizáveis por tempo, uso ou condição das máquinas.",
+            "b2": "A plataforma prioriza o que é crítico - chega de planilhas engessadas.",
+            "b3": "Ajuste os planos a qualquer momento com base nos dados de sensores e insights da IA.",
+            "b4": ""
+          },
+          "image": {
+            "src": "/who-we-serve/reliability-engineers/pt/planos-preventivos-inteligentes.png",
+            "alt": "Esqueça as planilhas. Reprograme seus planos preventivos de acordo com a condição real do ativo."
+          }
+        }
+      }
+    },
+    "BuiltByReliabilitySection": {
+      "title": "Criado por especialistas em confiabilidade",
+      "features": {
+        "onePlatformFullControl": {
+          "title": "Uma plataforma, controle total",
+          "description": "Dados de ativos, ordens de serviço e métricas de confiabilidade, tudo no mesmo lugar. Chega de planilhas paralelas ou sistemas que não conversam entre si."
+        },
+        "designedToFitWorkflow": {
+          "title": "Pensada para seu jeito de trabalhar",
+          "description": "A Tractian se adapta à rotina da sua equipe, e não o contrário. É fácil de implantar, e ainda mais fácil de escalar."
+        },
+        "aiJustGotSmarter": {
+          "title": "IA que vai além do alerta",
+          "description": "Nossa IA foca na causa raiz e automatiza o próximo passo, para a confiabilidade enfim ter a tecnologia que merece."
+        }
+      }
+    },
+    "TestimonialsSection": {
+      "title": "Saiba a opinião de quem usa Tractian todos os dias",
+      "items": {
+        "renato": {
+          "name": "Renato T.",
+          "role": "Gerente de Manutenção",
+          "company": "Inpasa",
+          "image": "/who-we-serve/reliability-engineers/testimonials/renato.png",
+          "quote": "A grande diferença é que agora, com os sensores, os problemas nos procuram, esse é o grande facilitador. Temos muito mais segurança de que teremos um diagnóstico em tempo hábil para atuar antes da falha funcional dos equipamentos."
+        },
+        "marcio": {
+          "name": "Marcio O.",
+          "role": "Gerente Nacional de Manutenção",
+          "company": "Grupo Bimbo",
+          "image": "/who-we-serve/reliability-engineers/testimonials/marcio.png",
+          "quote": "A solução da Tractian aumentou a velocidade da nossa tomada de decisão. As informações que a plataforma fornece são resultado de uma tecnologia avançada. Facilitou muito a nossa vida."
+        },
+        "bruno": {
+          "name": "Bruno O.",
+          "role": "Coordenador de Manutenção",
+          "company": "ICONIC",
+          "image": "/who-we-serve/reliability-engineers/testimonials/bruno.png",
+          "quote": "Hoje não existe parada de máquina sem que a manutenção saiba exatamente o que vai fazer. Cada parada é alinhada com ordens de serviço já direcionadas (peças, fornecedores e recursos planejados) para executar no menor tempo e devolver a disponibilidade da linha."
+        },
+        "vinicius": {
+          "name": "Vinicius A.",
+          "role": "Gerente de Manutenção",
+          "company": "The Fini Company",
+          "image": "/who-we-serve/reliability-engineers/testimonials/vinicius.png",
+          "quote": "Com a implementação da solução da Tractian, atacamos a indisponibilidade e ajustamos a gestão diária da manutenção utilizando o CMMS, o que nos permitiu um planejamento mais organizado e com maior antecedência."
+        }
+      }
+    },
+    "PeopleBehindMachinesSection": {
+      "backgroundImage": "/who-we-serve/more-than-machines.png",
+      "titleParts": {
+        "p1": "Tenha controle absoluto",
+        "p2": "da sua manutenção."
+      },
+      "descriptionParts": {
+        "p1": "Otimize o backlog, elimine alarmes irrelevantes e prove o",
+        "p2": "ROI a cada intervenção do seu time.",
+        "p3": "",
+        "p4": ""
+      },
+      "cta": "Escolha a Tractian"
+    },
+    "FaqSection": {
+      "eyebrow": "FAQ",
+      "title": "Perguntas Frequentes",
+      "items": {
+        "howDoesTractianHelp": {
+          "question": "Como a Tractian ajuda Gerentes de Manutenção?",
+          "answerHtml": "A Tractian oferece dados em tempo real, alarmes acionáveis e histórico contextualizado. Assim, você não só reage mais rápido, como melhora continuamente. De alertas precisos, Procedimentos Operacionais Padrão (POPs) automáticos, ciclos de vida de falhas, planos preventivos e indicadores de backlog, a plataforma mostra onde estão os gargalos, como corrigi-los e o quanto isso impacta nos resultados da operação."
+        },
+        "supportExistingProgram": {
+          "question": "A Tractian consegue se adaptar ao nosso programa de confiabilidade atual?",
+          "answerHtml": "Totalmente. Seja para estruturar uma estratégia de FMEA ou evoluir seu processo de RCA, a plataforma se encaixa na rotina já existente. Ela entrega visões por criticidade, histórico de falhas e resultados por intervenção - agregando valor à metodologia implementada."
+        },
+        "supportsBeyondReliability": {
+          "question": "A Tractian se integra aos sistemas e sensores que já usamos?",
+          "answerHtml": "Sim. A plataforma conecta-se a ERPs (como SAP/PM, Protheus, Sankhya, entre outros), e sensores legados. Assim, você unifica dados de diferentes fontes em um único painel, sem retrabalho manual nem troca de infraestrutura. Nada é perdido - só centralizado."
+        },
+        "failureConfirmationRca": {
+          "question": "Como a Tractian ajuda na confirmação de falhas e análise de causa raiz?",
+          "answerHtml": "Os <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/solucoes/monitoramento-condicao/insights-e-diagnostico\">diagnósticos com IA</a> eliminam alarmes falsos e focam sua atenção no que realmente importa. A plataforma identifica falhas específicas - como desgaste de rolamento ou cavitação - e apresenta tendências de vibração, análise espectral e condições de lubrificação. Cada alerta está conectado a uma linha do tempo do ativo, permitindo rastrear a origem da falha, como ela evoluiu e qual ação resolveu o problema."
+        },
+        "reduceReactiveMaintenance": {
+          "question": "A Tractian ajuda a reduzir a manutenção corretiva?",
+          "answerHtml": "Sim. Com <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/smart-trac\">monitoramento online</a> e <a class=\"underline underline-offset-2 text-slate-500\" target=\"_blank\" href=\"/cmms/tracos\">CMMS</a> integrados, você sai do modo reativo para uma manutenção proativa: os alertas aparecem antes da falha crítica e já geram ordens de serviço com prioridade, responsável e prazo. Em pouco tempo, você acelera a execução, elimina ruídos e analisa o impacto real das suas estratégias com base em dados."
+        },
+        "preventiveMaintenance": {
+          "question": "Como a Tractian contribui com a manutenção preventiva?",
+          "answerHtml": "Com a Tractian, sua manutenção deixa de ser baseada em calendário e passa a seguir o comportamento real do ativo. O algoritmo detecta padrões, reprograma ciclos e atualiza planos de forma dinâmica - menos paradas desnecessárias, mais disponibilidade."
+        },
+        "onlyForLargeOperations": {
+          "question": "A Tractian é adequada apenas para grandes operações industriais?",
+          "answerHtml": "Não. A Tractian é usada tanto por operações de grande porte, quanto por equipes enxutas com orçamento restrito. Se downtime é um problema, o tamanho da planta não importa: a plataforma escala conforme sua realidade."
+        },
+        "trainingAndTurnover": {
+          "question": "Como a Tractian ajuda no treinamento e na rotatividade do time?",
+          "answerHtml": "Checklists inteligentes, SOPs automáticos e orientações passo a passo reduzem a dependência de conhecimento tácito dos funcionários mais experientes. Mesmo técnicos recém-chegados sabem o que fazer e onde agir - sem precisar seguir a sombra de alguém. A curva de aprendizado cai, a autonomia sobe."
+        }
+      }
+    }
+  },
+  "SiteNav": {
+    "solutions": "Soluções",
+
+    "tractianConditionMonitoring": "Monitoramento de Condição",
+    "vibrationSensorAndAnalysis": "Sensor e Análise de Vibração",
+    "vibrationSensorAndAnalysisDescription": "Monitoramento remoto da saúde do ativo",
+    "aiFailureDetection": "Detecção de Falhas com IA",
+    "aiFailureDetectionDescription": "Identifique problemas cedo e receba alertas automáticos",
+    "reliabilityAndRootCauseAnalysis": "Confiabilidade e Análise de Causa Raiz",
+    "reliabilityAndRootCauseAnalysisDescription": "Acelere o diagnóstico, fortaleça seu plano de confiabilidade",
+    "downtimePreventionAndReporting": "Prevenção de Downtime e Relatórios",
+    "downtimePreventionAndReportingDescription": "Identifique tendências de falha e atue antes da quebra",
+    "sensorSpecifications": "Especificações do Sensor",
+    "sensorSpecificationsDescription": "Vibração, temperatura, horímetro e RPM em tempo real",
+
+    "tractianCmms": "Software de Gestão",
+    "troubleshootingAndSops": "Checklists & POPs Inteligentes",
+    "troubleshootingAndSopsDescription": "Oriente as ações dos técnicos com um passo a passo",
+    "workOrderManagement": "Gestão de Ordens de Serviço",
+    "workOrderManagementDescription": "Planeje, atribua e acompanhe cada OS em um só lugar",
+    "partsInventoryManagement": "Gerenciamento de Estoque & Inventário",
+    "partsInventoryManagementDescription": "Controle peças críticas e as vincule às ações de manutenção",
+    "preventiveMaintenance": "Manutenção Preventiva",
+    "preventiveMaintenanceDescription": "Automatize tarefas, previna falhas e reduza paradas",
+    "integrations": "Integrações",
+    "integrationsDescription": "Conecte a Tractian a ERPs, sensores e sistemas de dados",
+
+    "tractianOee": "Monitoramento de Produção",
+    "aiProductionTracking": "Monitoramento de Produção com IA",
+    "aiProductionTrackingDescription": "Acompanhe status da produção com insights na hora certa",
+    "operatorPerformance": "Performance do Operador",
+    "operatorPerformanceDescription": "Conecte e capacite o time da linha de frente",
+    "digitizedQuality": "Qualidade Digitalizada",
+    "digitizedQualityDescription": "Digitalize formulários e medições de qualidade",
+    "customDashboards": "Dashboards Personalizados",
+    "customDashboardsDescription": "Oriente a operação com relatórios em tempo real",
+    "utilityAndProcessAnalytics": "Análise de Utilidades & Processos",
+    "utilityAndProcessAnalyticsDescription": "Analise consumo de energia e métricas de processo",
+
+    "whoWeServe": "Indústrias",
+
+    "byRole": "Por cargo",
+    "plantManager": "Gerência",
+    "reliabilityEngineer": "Confiabilidade",
+    "maintenanceEngineer": "Manutenção",
+
+    "bySector": "Por setor",
+    "automotiveAndParts": "Automotiva",
+    "miningAndMetals": "Mineração",
+    "chemicals": "Química",
+    "millsAndAgriculture": "Usinas e Agrícola",
+    "foodAndBeverage": "Alimentícia & Bebidas",
+    "paperAndPulp": "Papel e Celulose",
+
+    "resources": "Recursos",
+
+    "resourcesCenter": "Central de Recursos",
+    "caseStudies": "Estudos de Caso",
+    "ebooks": "Ebooks",
+    "blog": "Blog",
+    "templates": "Templates",
+    "sops": "POPs",
+    "chatgptPlugins": "GPTs para Manutenção",
+
+    "customerHub": "Central do Cliente",
+    "productUpdates": "Atualizações de Produto",
+    "tractianAcademy": "Tractian Academy",
+    "helpCenter": "Help Center",
+
+    "company": "Sobre",
+
+    "aboutTractian": "A Tractian",
+    "aboutUs": "Sobre nós",
+    "careers": "Carreiras",
+    "newsroom": "Imprensa",
+
+    "others": "Suporte",
+    "contactUs": "Entre em Contato",
+    "referrals": "Indicações",
+    "trustCenter": "Trust Center",
+
+    "pricing": "Planos",
+
+    "conditionMonitoringPricing": "Sensor de Vibração",
+    "cmmsPricing": "Software de Gestão (CMMS)",
+
+    "getDemo": "Demonstração"
+  },
+  "SiteFooter": {
+    "backToTop": "Voltar ao topo",
+    "sections": {
+      "sensors": "Monitoramento Online",
+      "cmms": "Gestão de Ativos",
+      "oee": "Gestão de Energia",
+      "support": "Suporte",
+      "about": "Sobre",
+      "downloadApp": "Download Our App"
+    },
+    "links": {
+      "overview": "Visão Geral",
+      "insightsAndDiagnostics": "Insights e Diagnósticos",
+      "monitoredAssets": "Ativos Monitorados",
+      "vibrationAnalysis": "Análise de Vibração",
+      "supervisory": "Supervisório",
+
+      "overviewOEE": "Visão Geral",
+      "assetPerformanceManagement": "Asset Performance Management",
+      "energyReports": "Relatórios de Energia",
+      "processMonitoring": "Monitoramento de processos",
+      "energyEfficiency": "Eficiência Energética",
+      "currentMonitoring": "Monitoramento de Corrente",
+      "supervisoryOEE": "Supervisório",
+
+      "overviewCMMS": "CMMS Potencializado por IA",
+      "planningAndScheduling": "Planejamento e Programação",
+      "maintenanceKPIs": "Dashboard Indicadores Manutenção",
+      "geolocation": "Geolocalização",
+      "workOrderManagement": "Gestão de Ordens de Serviço",
+      "inventoryControl": "Controle de Estoque",
+      "automaticProcedures": "Procedimentos Automáticos",
+      "mobileApp": "Aplicativo Móvel",
+
+      "contactUs": "Fale Conosco",
+      "helpCenter": "Central de Ajuda",
+      "policies": "Políticas",
+      "termsOfUse": "Termos de Uso",
+      "trustCenter": "Trust Center",
+
+      "aboutUs": "Sobre Nós",
+      "careers": "Carreiras",
+      "caseStudies": "Estudos de Caso",
+      "press": "Imprensa",
+      "community": "Comunidade",
+
+      "appleStore": "Apple Store",
+      "googlePlayStore": "Google Play Store",
+      "sapStore": "SAP Store"
+    },
+    "privacyChoices": "Suas escolhas de privacidade",
+    "address": "R. Amaro Guerra, 415 - Chácara Santo Antônio, São Paulo - SP, 04711-020",
+    "phone": "0800 110 2020",
+    "copyright": "© Tractian Tecnologia Ltda\nCNPJ: 35.755.699/0001-84"
+  },
+  "Languages": {
+    "en": "English (United States)",
+    "pt": "Português (Brasil)",
+    "es": "Español (México)"
+  },
+  "GetDemoDialog": {
+    "title": "Solicite sua demonstração",
+    "description": "Preencha os campos para falar com um especialista e entender os benefícios que a Tractian oferece para suas operações de manutenção.",
+    "closeButton": "Fechar diálogo",
+    "form": {
+      "name": {
+        "placeholder": "Nome completo",
+        "required": "Campo obrigatório!",
+        "invalid": "Nome inválido. Verifique caracteres especiais!",
+        "incomplete": "Nome inválido. Verifique se está completo!"
+      },
+      "email": {
+        "placeholder": "E-mail profissional",
+        "required": "Campo obrigatório!",
+        "invalid": "Email inválido. Verifique a utilização de caractéres especiais!"
+      },
+      "phone": {
+        "placeholder": "Telefone",
+        "required": "Número inválido, verifique se está completo!"
+      },
+      "jobTitle": {
+        "placeholder": "Cargo",
+        "required": "Campo obrigatório!"
+      },
+      "industrySector": {
+        "placeholder": "Setor da Indústria",
+        "required": "Campo obrigatório!"
+      },
+      "solution": {
+        "placeholder": "Selecione a solução de maior interesse",
+        "required": "Campo obrigatório!"
+      },
+      "submitButton": "Solicitar demonstração"
+    }
+  },
+  "NotFound": {
+    "title": "Nossos sensores detectaram um downtime inesperado na página acessada.",
+    "description": "Não se preocupe, estamos trabalhando nisso.",
+    "ctaLabel": "Voltar à página inicial"
+  }
+}

@@ -1,0 +1,57 @@
+@import "tailwindcss";
+@import "./typography.css";
+@import "./tokens.css";
+
+@layer base {
+  html {
+    font-family: var(--font-inter);
+    color: var(--color-slate-700);
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
+}
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+  --font-tight: "Inter Tight", sans-serif;
+
+  --animate-fadeInDown: fadeInDown;
+  --animate-fadeIn: fadeIn;
+  --animate-scalePulseSoft: scalePulseSoft;
+
+  @keyframes fadeInDown {
+    0% {
+      opacity: 0;
+      -webkit-transform: translate3d(0, -100%, 0);
+      transform: translate3d(0, -100%, 0);
+    }
+
+    100% {
+      opacity: 1;
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes scalePulseSoft {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+
+    50% {
+      transform: scale(1.05);
+    }
+  }
+}
