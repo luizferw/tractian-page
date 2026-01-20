@@ -1,9 +1,8 @@
 import { routing } from "@/i18n/routing";
-import { setRequestLocale } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { GetDemoDialogProvider } from "@/components/providers/GetDemoDialogProvider";
-import fontsVariables from "@/styles/fonts";
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -23,15 +22,14 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
+  const messages = await getMessages({locale});
 
   return (
-    <html className={fontsVariables} lang={locale}>
-      <body>
-        <NextIntlClientProvider>
-          <GetDemoDialogProvider>{children}</GetDemoDialogProvider>
-        </NextIntlClientProvider>
-        <div id="headlessui-portal-root" />
-      </body>
-    </html>
+    <>
+      <NextIntlClientProvider locale={locale} messages={messages}>
+        <GetDemoDialogProvider>{children}</GetDemoDialogProvider>
+      </NextIntlClientProvider>
+      <div id="headlessui-portal-root" />
+    </>
   );
 }
