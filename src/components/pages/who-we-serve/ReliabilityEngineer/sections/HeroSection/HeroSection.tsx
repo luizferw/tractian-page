@@ -3,7 +3,7 @@ import CTAButton from "../../CTAButton";
 import Image from "next/image";
 
 export default function HeroSection() {
-  const t = useTranslations("ReliabilityEngineer.heroSection");
+  const t = useTranslations("ReliabilityEngineer.HeroSection");
 
   return (
     <section
@@ -66,8 +66,8 @@ export default function HeroSection() {
         <Image
           alt={t("imageAlt")}
           loading="lazy"
-          width="2560"
-          height="1980"
+          width="1280"
+          height="1080"
           decoding="async"
           className="flex h-full w-full object-cover object-center sm:hidden"
           src="/who-we-serve/reliability-engineers/header-mobile.png"

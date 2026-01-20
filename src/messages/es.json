@@ -2,7 +2,7 @@
   "ReliabilityEngineer": {
     "title": "Tractian para Ingenieros de Confiabilidad",
     "description": "Detecta fallas antes de que escalen, analiza causas raíz y mejora la salud de activos con datos reales.",
-    "heroSection": {
+    "HeroSection": {
       "ariaLabel": "Encabezado de Ingenieros de Confiabilidad",
       "eyebrow": "LIDERA CON DATOS CLAROS Y TOMA DECISIONES ACERTADAS",
       "title": "Para el Ingeniero de <br></br> Confiabilidad que busca <br></br> claridad",

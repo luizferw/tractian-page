@@ -2,7 +2,7 @@
   "ReliabilityEngineer": {
     "title": "Tractian para Gerentes de Manutenção",
     "description": "Planeje, priorize e acompanhe ordens em tempo real. Com a Tractian, Gerentes de Manutenção têm visibilidade total para tomar decisões rápidas.",
-    "heroSection": {
+    "HeroSection": {
       "ariaLabel": "Header de Engenharia de Confiabilidade",
       "eyebrow": "DADOS CONFIÁVEIS PARA DECISÕES RÁPIDAS",
       "title": "Para o Gerente de <br></br> Manutenção que corre <br></br> contra paradas inesperadas",

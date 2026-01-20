@@ -2,7 +2,7 @@
   "ReliabilityEngineer": {
     "title": "For the Reliability Engineer Who Craves Clarity",
     "description": "Prioritize what matters and confirm failures with confidence. Tractian becomes an extension of your workflow - giving you timelines, clarity, and control over what actually moves the needle.",
-    "heroSection": {
+    "HeroSection": {
       "ariaLabel": "Reliability Engineers Header",
       "eyebrow": "OWN THE DATA. DRIVE SMARTER DECISIONS.",
       "title": "For the Reliability Engineer <br></br> Who Craves Clarity",

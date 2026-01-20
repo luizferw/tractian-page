@@ -14,7 +14,7 @@ export default function CTAButton({
   showArrow?: boolean;
   className?: string;
 }) {
-  const t = useTranslations("ReliabilityEngineer.heroSection");
+  const t = useTranslations("ReliabilityEngineer.HeroSection");
   const { open } = useGetDemoDialog();
 
   return (
